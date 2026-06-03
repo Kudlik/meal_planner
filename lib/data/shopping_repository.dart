@@ -13,7 +13,7 @@ class ShoppingRepository {
 
   Future<ShoppingOverrides> load() async {
     final file = await _file();
-    if (!await file.exists()) return ShoppingOverrides([], []);
+    if (!await file.exists()) return ShoppingOverrides([], [], {});
     try {
       final raw = await file.readAsString();
       final data = json.decode(raw) as Map<String, dynamic>;
@@ -23,17 +23,25 @@ class ShoppingRepository {
       final overrides = (data['overrides'] as List? ?? [])
           .map((e) => QuantityOverride.fromJson(e as Map<String, dynamic>))
           .toList();
-      return ShoppingOverrides(manuals, overrides);
+      final bought = (data['bought'] as List? ?? [])
+          .map((e) => e as String)
+          .toSet();
+      return ShoppingOverrides(manuals, overrides, bought);
     } catch (_) {
-      return ShoppingOverrides([], []);
+      return ShoppingOverrides([], [], {});
     }
   }
 
-  Future<void> save(List<ManualItem> manuals, List<QuantityOverride> overrides) async {
+  Future<void> save(
+    List<ManualItem> manuals,
+    List<QuantityOverride> overrides,
+    Set<String> bought,
+  ) async {
     final file = await _file();
     await file.writeAsString(json.encode({
       'manuals': manuals.map((m) => m.toJson()).toList(),
       'overrides': overrides.map((o) => o.toJson()).toList(),
+      'bought': bought.toList(),
     }));
   }
 }
@@ -41,5 +49,6 @@ class ShoppingRepository {
 class ShoppingOverrides {
   final List<ManualItem> manuals;
   final List<QuantityOverride> overrides;
-  ShoppingOverrides(this.manuals, this.overrides);
+  final Set<String> bought;
+  ShoppingOverrides(this.manuals, this.overrides, this.bought);
 }

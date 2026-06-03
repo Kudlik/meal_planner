@@ -5,6 +5,91 @@ import '../theme/app_colors.dart';
 import '../theme/app_text_styles.dart';
 import 'meal_picker_screen.dart';
 
+void _showPlanActionsSheet(BuildContext context) {
+  showModalBottomSheet<void>(
+    context: context,
+    backgroundColor: AppColors.background,
+    shape: const RoundedRectangleBorder(
+      borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
+    ),
+    builder: (_) => _PlanActionsSheet(appState: context.read<AppState>()),
+  );
+}
+
+class _PlanActionsSheet extends StatelessWidget {
+  final AppState appState;
+  const _PlanActionsSheet({required this.appState});
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          const SizedBox(height: 8),
+          Container(
+            width: 36,
+            height: 4,
+            decoration: BoxDecoration(
+              color: AppColors.border,
+              borderRadius: BorderRadius.circular(2),
+            ),
+          ),
+          const SizedBox(height: 8),
+          _ActionTile(
+            label: 'Podziel się planem',
+            onTap: () async {
+              Navigator.pop(context);
+              await appState.exportPlan();
+            },
+          ),
+          const Divider(height: 1, color: AppColors.border),
+          _ActionTile(
+            label: 'Załaduj plan z pliku',
+            onTap: () async {
+              Navigator.pop(context);
+              final error = await appState.importPlan();
+              if (error != null && error.isNotEmpty && context.mounted) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(content: Text(error)),
+                );
+              }
+            },
+          ),
+          const SizedBox(height: 8),
+        ],
+      ),
+    );
+  }
+}
+
+class _ActionTile extends StatelessWidget {
+  final String label;
+  final VoidCallback onTap;
+  const _ActionTile({required this.label, required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: onTap,
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
+        child: Align(
+          alignment: Alignment.centerLeft,
+          child: Text(
+            label,
+            style: const TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.w500,
+              color: AppColors.textPrimary,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 const _dayKeys = ['1-2', '3-4', '5-6', '7-8'];
 
 const _mealRows = [
@@ -26,26 +111,40 @@ class MenuScreen extends StatelessWidget {
         children: [
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 32, 16, 10),
-            child: Align(
-              alignment: Alignment.centerRight,
-              child: OutlinedButton(
-                style: OutlinedButton.styleFrom(
-                  side: const BorderSide(color: AppColors.primary),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(8),
+            child: Row(
+              children: [
+                OutlinedButton(
+                  style: OutlinedButton.styleFrom(
+                    side: const BorderSide(color: AppColors.border),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                    minimumSize: Size.zero,
                   ),
-                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                  onPressed: () => _showPlanActionsSheet(context),
+                  child: const Icon(Icons.menu, color: AppColors.textPrimary, size: 20),
                 ),
-                onPressed: () => context.read<AppState>().clearPlan(),
-                child: const Text(
-                  'Wyczyść plan',
-                  style: TextStyle(
-                    color: AppColors.primary,
-                    fontSize: 13,
-                    fontWeight: FontWeight.w600,
+                const Spacer(),
+                OutlinedButton(
+                  style: OutlinedButton.styleFrom(
+                    side: const BorderSide(color: AppColors.primary),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                  ),
+                  onPressed: () => context.read<AppState>().clearPlan(),
+                  child: const Text(
+                    'Wyczyść plan',
+                    style: TextStyle(
+                      color: AppColors.primary,
+                      fontSize: 13,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
-              ),
+              ],
             ),
           ),
           const Divider(height: 1, color: AppColors.border),
@@ -76,15 +175,19 @@ class MenuScreen extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
       child: Row(
-        children: _dayKeys.map((day) => Expanded(
-          child: Center(
-            child: Text(
-              'Dni\n$day',
-              textAlign: TextAlign.center,
-              style: AppTextStyles.mealTypeLabel,
+        children: [
+          const SizedBox(width: 28),
+          const VerticalDivider(width: 1, thickness: 1, color: AppColors.border),
+          ..._dayKeys.map((day) => Expanded(
+            child: Center(
+              child: Text(
+                'Dni\n$day',
+                textAlign: TextAlign.center,
+                style: AppTextStyles.mealTypeLabel,
+              ),
             ),
-          ),
-        )).toList(),
+          )),
+        ],
       ),
     );
   }
@@ -101,6 +204,20 @@ class _MealTypeRow extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
+        SizedBox(
+          width: 28,
+          child: Center(
+            child: RotatedBox(
+              quarterTurns: 3,
+              child: Text(
+                rawMealType,
+                style: AppTextStyles.mealTypeLabel,
+                textAlign: TextAlign.center,
+              ),
+            ),
+          ),
+        ),
+        const VerticalDivider(width: 1, thickness: 1, color: AppColors.border),
         for (int i = 0; i < _dayKeys.length; i++) ...[
           if (i > 0) const VerticalDivider(width: 1, thickness: 1, color: AppColors.border),
           Expanded(
@@ -169,28 +286,32 @@ class _AddButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: onTap,
-      child: Center(
-        child: Container(
-          padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 12),
-          decoration: BoxDecoration(
-            color: AppColors.primary,
-            borderRadius: BorderRadius.circular(12),
-          ),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              const Icon(Icons.add_circle_outline, size: 28, color: Colors.white),
-              const SizedBox(height: 6),
-              Text(
-                'Dodaj\n${displayMealType.toLowerCase()}',
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 11,
-                  fontWeight: FontWeight.w600,
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 12),
+        child: Center(
+          child: Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(vertical: 14),
+            decoration: BoxDecoration(
+              color: AppColors.primary,
+              borderRadius: BorderRadius.circular(12),
+            ),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Icon(Icons.add_circle_outline, size: 28, color: Colors.white),
+                const SizedBox(height: 6),
+                Text(
+                  'Dodaj\n${displayMealType.toLowerCase()}',
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 11,
+                    fontWeight: FontWeight.w600,
+                  ),
+                  textAlign: TextAlign.center,
                 ),
-                textAlign: TextAlign.center,
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
@@ -219,7 +340,7 @@ class _MealCard extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(6, 6, 6, 6),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
                 mealName,

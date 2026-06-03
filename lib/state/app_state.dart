@@ -3,6 +3,7 @@ import '../models/models.dart';
 import '../data/recipe_repository.dart';
 import '../data/plan_repository.dart';
 import '../data/shopping_repository.dart';
+import '../data/plan_export_service.dart';
 
 class AppState extends ChangeNotifier {
   final RecipeRepository _recipes = RecipeRepository();
@@ -12,6 +13,7 @@ class AppState extends ChangeNotifier {
   List<PlanSlot> _slots = [];
   List<ManualItem> _manuals = [];
   List<QuantityOverride> _quantityOverrides = [];
+  Set<String> _boughtItems = {};
   bool _isLoaded = false;
 
   bool get isLoaded => _isLoaded;
@@ -24,6 +26,7 @@ class AppState extends ChangeNotifier {
     final overrides = await _shoppingRepo.load();
     _manuals = overrides.manuals;
     _quantityOverrides = overrides.overrides;
+    _boughtItems = overrides.bought;
     _isLoaded = true;
     notifyListeners();
   }
@@ -67,8 +70,9 @@ class AppState extends ChangeNotifier {
     }
     _manuals.clear();
     _quantityOverrides.clear();
+    _boughtItems.clear();
     _planRepo.save(_slots);
-    _shoppingRepo.save(_manuals, _quantityOverrides);
+    _shoppingRepo.save(_manuals, _quantityOverrides, _boughtItems);
     notifyListeners();
   }
 
@@ -88,12 +92,12 @@ class AppState extends ChangeNotifier {
     for (final mealName in assignedMeals) {
       for (final ing in _recipes.ingredientsForMeal(mealName)) {
         if (totals.containsKey(ing.name)) {
-          totals[ing.name]!.quantity += ing.quantityPer1 * 2;
+          totals[ing.name]!.quantity += ing.quantityPer1 * 4;
         } else {
           totals[ing.name] = ShoppingItem(
             name: ing.name,
             unit: ing.unit,
-            quantity: ing.quantityPer1 * 2,
+            quantity: ing.quantityPer1 * 4,
             category: ing.category,
           );
         }
@@ -110,7 +114,7 @@ class AppState extends ChangeNotifier {
 
     const categoryOrder = [
       'owoce', 'warzywa', 'konserwowe', 'pieczywo', 'tłuszcze',
-      'słodycze', 'nabiał', 'mięso', 'sypkie', 'mrożonki',
+      'słodycze', 'nabiał', 'mięso', 'sypkie', 'mrożonki', 'higiena',
     ];
 
     int categoryRank(String? cat) {
@@ -149,11 +153,23 @@ class AppState extends ChangeNotifier {
   bool get isShoppingListEmpty =>
       _slots.every((s) => s.mealName == null) && _manuals.isEmpty;
 
+  bool isBought(String name) => _boughtItems.contains(name);
+
+  void toggleBought(String name) {
+    if (_boughtItems.contains(name)) {
+      _boughtItems.remove(name);
+    } else {
+      _boughtItems.add(name);
+    }
+    _shoppingRepo.save(_manuals, _quantityOverrides, _boughtItems);
+    notifyListeners();
+  }
+
   double _computedQuantity(String itemName) {
     double total = 0.0;
     for (final mealName in _slots.where((s) => s.mealName != null).map((s) => s.mealName!)) {
       for (final ing in _recipes.ingredientsForMeal(mealName)) {
-        if (ing.name == itemName) total += ing.quantityPer1 * 2;
+        if (ing.name == itemName) total += ing.quantityPer1 * 4;
       }
     }
     return total;
@@ -169,13 +185,50 @@ class AppState extends ChangeNotifier {
         unit: unit,
       ));
     }
-    _shoppingRepo.save(_manuals, _quantityOverrides);
+    _shoppingRepo.save(_manuals, _quantityOverrides, _boughtItems);
     notifyListeners();
   }
 
   void addManualItem(String name, String quantity, String? category) {
     _manuals.insert(0, ManualItem(name: name, quantity: quantity, category: category));
-    _shoppingRepo.save(_manuals, _quantityOverrides);
+    _shoppingRepo.save(_manuals, _quantityOverrides, _boughtItems);
     notifyListeners();
+  }
+
+  void updateManualItem(String oldName, String newName, String quantity, String? category) {
+    final index = _manuals.indexWhere((m) => m.name == oldName);
+    if (index != -1) {
+      _manuals[index] = ManualItem(name: newName, quantity: quantity, category: category);
+      _shoppingRepo.save(_manuals, _quantityOverrides, _boughtItems);
+      notifyListeners();
+    }
+  }
+
+  // --- Export / Import ---
+
+  final _exportService = PlanExportService();
+
+  Future<void> exportPlan() async {
+    final payload = _exportService.buildExportJson(_slots, _manuals, _quantityOverrides);
+    await _exportService.share(payload);
+  }
+
+  // Returns null on success, an error message string on failure, or empty string if cancelled.
+  Future<String?> importPlan() async {
+    final ImportResult result;
+    try {
+      result = await _exportService.pickAndParse();
+    } catch (e) {
+      return e.toString();
+    }
+    if (result.cancelled) return '';
+    _slots = result.slots!;
+    _manuals = result.manuals!;
+    _quantityOverrides = result.overrides!;
+    _boughtItems = {};
+    await _planRepo.save(_slots);
+    await _shoppingRepo.save(_manuals, _quantityOverrides, _boughtItems);
+    notifyListeners();
+    return null;
   }
 }

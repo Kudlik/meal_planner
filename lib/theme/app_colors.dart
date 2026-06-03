@@ -18,6 +18,7 @@ class AppColors {
   static const Color badgePieczywo = Color(0xFFFF9000);
   static const Color badgeSodycze = Color(0xFFCB009C);
   static const Color badgeTluszcze = Color(0xFF7BA002);
+  static const Color badgeHigiena = Color(0xFF00787A);
 
   static Color badgeColor(String? category) {
     switch (category?.toLowerCase()) {
@@ -31,6 +32,7 @@ class AppColors {
       case 'pieczywo': return badgePieczywo;
       case 'słodycze': return badgeSodycze;
       case 'tłuszcze': return badgeTluszcze;
+      case 'higiena': return badgeHigiena;
       default: return badgeKonserwowe;
     }
   }
