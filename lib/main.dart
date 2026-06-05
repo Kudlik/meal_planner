@@ -1,10 +1,13 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'state/app_state.dart';
 import 'theme/app_colors.dart';
-import 'theme/app_text_styles.dart';
 import 'screens/menu_screen.dart';
 import 'screens/shopping_list_screen.dart';
+import 'screens/splash_screen.dart';
+import 'screens/component_gallery.dart';
+import 'widgets/app_bottom_nav.dart';
 
 void main() {
   runApp(
@@ -15,20 +18,28 @@ void main() {
   );
 }
 
-class MealPlannerApp extends StatelessWidget {
+class MealPlannerApp extends StatefulWidget {
   const MealPlannerApp({super.key});
+
+  @override
+  State<MealPlannerApp> createState() => _MealPlannerAppState();
+}
+
+class _MealPlannerAppState extends State<MealPlannerApp> {
+  bool _splashDone = false;
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Menu',
+      title: 'Jedzonko',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
         scaffoldBackgroundColor: AppColors.background,
-        fontFamily: 'Helvetica',
+        fontFamily: 'Epilogue',
       ),
-      home: const _RootScreen(),
+      home: _splashDone
+          ? const _RootScreen()
+          : SplashScreen(onComplete: () => setState(() => _splashDone = true)),
     );
   }
 }
@@ -42,44 +53,63 @@ class _RootScreen extends StatefulWidget {
 
 class _RootScreenState extends State<_RootScreen> {
   int _currentIndex = 0;
+  int _shoppingTapCount = 0;
+  Timer? _tapResetTimer;
+
+  @override
+  void dispose() {
+    _tapResetTimer?.cancel();
+    super.dispose();
+  }
+
+  void _onTabSelected(int index) {
+    if (index == 1) {
+      _shoppingTapCount++;
+      _tapResetTimer?.cancel();
+      _tapResetTimer = Timer(const Duration(seconds: 2), () {
+        _shoppingTapCount = 0;
+      });
+      if (_shoppingTapCount >= 6) {
+        _shoppingTapCount = 0;
+        _tapResetTimer?.cancel();
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => const ComponentGallery()),
+        );
+        return;
+      }
+    } else {
+      _shoppingTapCount = 0;
+      _tapResetTimer?.cancel();
+    }
+    setState(() => _currentIndex = index);
+  }
 
   @override
   Widget build(BuildContext context) {
-    final state = context.watch<AppState>();
-
-    if (!state.isLoaded) {
-      return const Scaffold(
-        body: Center(child: CircularProgressIndicator(color: AppColors.primary)),
-      );
-    }
-
     return Scaffold(
-      body: IndexedStack(
-        index: _currentIndex,
+      backgroundColor: AppColors.background,
+      body: Stack(
         children: [
-          const MenuScreen(),
-          ShoppingListScreen(
-            onGoToMenu: () => setState(() => _currentIndex = 0),
+          IndexedStack(
+            index: _currentIndex,
+            children: [
+              const MenuScreen(),
+              ShoppingListScreen(
+                onGoToMenu: () => setState(() => _currentIndex = 0),
+              ),
+            ],
           ),
-        ],
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentIndex,
-        onTap: (i) => setState(() => _currentIndex = i),
-        selectedItemColor: AppColors.primary,
-        unselectedItemColor: AppColors.textSecondary,
-        selectedLabelStyle: AppTextStyles.tabLabel.copyWith(color: AppColors.primary),
-        unselectedLabelStyle: AppTextStyles.tabLabel,
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.restaurant_menu_outlined),
-            activeIcon: Icon(Icons.restaurant_menu),
-            label: 'Menu',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart_outlined),
-            activeIcon: Icon(Icons.shopping_cart),
-            label: 'Lista zakupów',
+          Positioned(
+            bottom: 16,
+            left: 0,
+            right: 0,
+            child: Center(
+              child: AppBottomNav(
+                selectedIndex: _currentIndex,
+                onTabSelected: _onTabSelected,
+              ),
+            ),
           ),
         ],
       ),

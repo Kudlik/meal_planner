@@ -13,23 +13,20 @@ class CategoryBadge extends StatelessWidget {
     if (category == null) return const SizedBox.shrink();
 
     final label = _capitalize(category!);
-    final bg = disabled ? AppColors.disabled : AppColors.badgeColor(category);
-    final fg = disabled
-        ? Colors.white
-        : AppColors.badgeTextColor(category);
+    final bg  = disabled ? AppColors.borderNeutral      : AppColors.badgeColor(category);
+    final fg  = disabled ? AppColors.disabled           : AppColors.badgeTextColor(category);
 
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+      padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
       decoration: BoxDecoration(
         color: bg,
-        borderRadius: BorderRadius.circular(4),
-        border: category?.toLowerCase() == 'nabiał' && !disabled
-            ? Border.all(color: AppColors.border)
-            : null,
+        borderRadius: BorderRadius.circular(8),
       ),
-      child: Text(label,
-          style: AppTextStyles.badgeText.copyWith(color: fg),
-          maxLines: 1),
+      child: Text(
+        label,
+        style: AppTextStyles.badgeText.copyWith(color: fg),
+        maxLines: 1,
+      ),
     );
   }
 
