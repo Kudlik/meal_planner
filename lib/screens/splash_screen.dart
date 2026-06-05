@@ -19,10 +19,11 @@ class _SplashScreenState extends State<SplashScreen>
   late final AnimationController _c2; // icon
   late final AnimationController _c3; // "Jedzonko!"
 
-  late final Animation<Offset> _subtitleSlide;
-  late final Animation<double>  _iconFade;
-  late final Animation<double>  _iconScale;
-  late final Animation<Offset> _titleSlide;
+  // Curved progress 0→1 for each step, used with screen-width translate
+  late final Animation<double> _subtitleProgress;
+  late final Animation<double> _iconFade;
+  late final Animation<double> _iconScale;
+  late final Animation<double> _titleProgress;
 
   bool _animsDone = false;
 
@@ -30,30 +31,25 @@ class _SplashScreenState extends State<SplashScreen>
   void initState() {
     super.initState();
 
-    const dur = Duration(milliseconds: 500);
-    _c1 = AnimationController(vsync: this, duration: dur);
-    _c2 = AnimationController(vsync: this, duration: dur);
-    _c3 = AnimationController(vsync: this, duration: dur);
+    _c1 = AnimationController(vsync: this, duration: const Duration(milliseconds: 800));
+    _c2 = AnimationController(vsync: this, duration: const Duration(milliseconds: 700));
+    _c3 = AnimationController(vsync: this, duration: const Duration(milliseconds: 800));
 
-    _subtitleSlide = Tween<Offset>(begin: const Offset(-1.5, 0), end: Offset.zero)
-        .animate(CurvedAnimation(parent: _c1, curve: Curves.easeOut));
-
-    _iconFade  = CurvedAnimation(parent: _c2, curve: Curves.easeIn);
-    _iconScale = Tween<double>(begin: 0.5, end: 1.0)
+    _subtitleProgress = CurvedAnimation(parent: _c1, curve: Curves.easeOut);
+    _iconFade         = CurvedAnimation(parent: _c2, curve: Curves.easeIn);
+    _iconScale        = Tween<double>(begin: 0.5, end: 1.0)
         .animate(CurvedAnimation(parent: _c2, curve: Curves.easeOut));
-
-    _titleSlide = Tween<Offset>(begin: const Offset(1.5, 0), end: Offset.zero)
-        .animate(CurvedAnimation(parent: _c3, curve: Curves.easeOut));
+    _titleProgress    = CurvedAnimation(parent: _c3, curve: Curves.easeOut);
 
     _runSequence();
   }
 
   Future<void> _runSequence() async {
-    await Future.delayed(const Duration(milliseconds: 400));
+    await Future.delayed(const Duration(milliseconds: 500));
     await _c1.forward();
-    await Future.delayed(const Duration(milliseconds: 150));
+    await Future.delayed(const Duration(milliseconds: 200));
     await _c2.forward();
-    await Future.delayed(const Duration(milliseconds: 150));
+    await Future.delayed(const Duration(milliseconds: 200));
     await _c3.forward();
 
     if (!mounted) return;
@@ -87,14 +83,21 @@ class _SplashScreenState extends State<SplashScreen>
 
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.sizeOf(context).width;
+
     return Scaffold(
       backgroundColor: AppColors.surface,
       body: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            SlideTransition(
-              position: _subtitleSlide,
+            // "Chyba czas na..." — slides in from the LEFT
+            AnimatedBuilder(
+              animation: _subtitleProgress,
+              builder: (_, child) => Transform.translate(
+                offset: Offset(-(1.0 - _subtitleProgress.value) * screenWidth, 0),
+                child: child,
+              ),
               child: const Text('Chyba czas na...', style: AppTextStyles.displaySubtitle),
             ),
             const SizedBox(height: 24),
@@ -111,8 +114,13 @@ class _SplashScreenState extends State<SplashScreen>
               ),
             ),
             const SizedBox(height: 24),
-            SlideTransition(
-              position: _titleSlide,
+            // "Jedzonko!" — slides in from the RIGHT
+            AnimatedBuilder(
+              animation: _titleProgress,
+              builder: (_, child) => Transform.translate(
+                offset: Offset((1.0 - _titleProgress.value) * screenWidth, 0),
+                child: child,
+              ),
               child: const Text('Jedzonko!', style: AppTextStyles.displayHero),
             ),
           ],
