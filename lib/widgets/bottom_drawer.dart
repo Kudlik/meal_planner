@@ -14,11 +14,12 @@ class BottomDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final bottomInset = MediaQuery.of(context).padding.bottom;
     return Container(
       width: double.infinity,
-      padding: const EdgeInsets.fromLTRB(12, 24, 12, 12),
+      padding: EdgeInsets.fromLTRB(12, 24, 12, 12 + bottomInset),
       decoration: const BoxDecoration(
-        color: AppColors.textSecondary, // Schemes/Outline #7C7767
+        color: AppColors.textSecondary,
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(20),
           topRight: Radius.circular(20),
@@ -31,15 +32,11 @@ class BottomDrawer extends StatelessWidget {
           Text(
             title,
             style: AppTextStyles.headlineSmall.copyWith(
-              color: AppColors.accentBright, // #FAE287
+              color: AppColors.accentBright,
             ),
           ),
           const SizedBox(height: 12),
-          const Divider(
-            height: 1,
-            thickness: 1,
-            color: AppColors.border, // Schemes/Outline Variant #CDC6B4
-          ),
+          const Divider(height: 1, thickness: 1, color: AppColors.border),
           const SizedBox(height: 12),
           child,
         ],

@@ -101,7 +101,7 @@ class _RootScreenState extends State<_RootScreen> {
             ],
           ),
           Positioned(
-            bottom: 16,
+            bottom: 28,
             left: 0,
             right: 0,
             child: Center(

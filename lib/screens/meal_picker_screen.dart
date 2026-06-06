@@ -64,13 +64,19 @@ class _MealPickerScreenState extends State<MealPickerScreen> {
               ),
             ),
             if (_selectedMealName != null)
-              Padding(
-                padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
-                child: AppTextButton(
-                  label: 'Dodaj do menu',
-                  type: AppTextButtonType.primary,
-                  onPressed: _confirm,
+              SafeArea(
+                top: false,
+                child: Padding(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 12),
+                child: SizedBox(
+                  width: double.infinity,
+                  child: AppTextButton(
+                    label: 'Dodaj do menu',
+                    type: AppTextButtonType.primary,
+                    onPressed: _confirm,
+                  ),
                 ),
+              ),
               ),
           ],
         ),
