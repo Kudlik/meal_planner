@@ -1,3 +1,5 @@
+import 'dart:async';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
 import '../models/models.dart';
 import '../data/recipe_repository.dart';
@@ -16,19 +18,43 @@ class AppState extends ChangeNotifier {
   Set<String> _boughtItems = {};
   bool _isLoaded = false;
 
+  StreamSubscription<DocumentSnapshot<Map<String, dynamic>>>? _sub;
+
+  static const _householdId = 'household_01';
+
   bool get isLoaded => _isLoaded;
   List<PlanSlot> get slots => _slots;
 
   Future<void> init() async {
     await _recipes.load();
-    _slots = await _planRepo.load();
-    if (_slots.isEmpty) _slots = _planRepo.emptySlots();
-    final overrides = await _shoppingRepo.load();
+    _sub = FirebaseFirestore.instance
+        .collection('households')
+        .doc(_householdId)
+        .snapshots()
+        .listen(_onRemoteUpdate);
+  }
+
+  void _onRemoteUpdate(DocumentSnapshot<Map<String, dynamic>> snap) {
+    if (!snap.exists || snap.data() == null) {
+      _slots = _planRepo.emptySlots();
+      _isLoaded = true;
+      notifyListeners();
+      return;
+    }
+    final data = snap.data()!;
+    _slots = PlanRepository.slotsFromMap(data['plan'] as Map<String, dynamic>?);
+    final overrides = ShoppingRepository.overridesFromMap(data);
     _manuals = overrides.manuals;
     _quantityOverrides = overrides.overrides;
     _boughtItems = overrides.bought;
     _isLoaded = true;
     notifyListeners();
+  }
+
+  @override
+  void dispose() {
+    _sub?.cancel();
+    super.dispose();
   }
 
   // --- Menu ---
@@ -81,13 +107,11 @@ class AppState extends ChangeNotifier {
   // --- Shopping list ---
 
   List<ShoppingItem> get shoppingItems {
-    // Collect assigned meal names (same meal can appear multiple times)
     final assignedMeals = _slots
         .where((s) => s.mealName != null)
         .map((s) => s.mealName!)
         .toList();
 
-    // Sum ingredients across all assigned meals (quantity × 2 for 2 people)
     final totals = <String, ShoppingItem>{};
     for (final mealName in assignedMeals) {
       for (final ing in _recipes.ingredientsForMeal(mealName)) {
@@ -104,7 +128,6 @@ class AppState extends ChangeNotifier {
       }
     }
 
-    // Apply quantity overrides as deltas so totals still scale with meals
     for (final override in _quantityOverrides) {
       if (totals.containsKey(override.itemName)) {
         totals[override.itemName]!.quantity += override.delta;
@@ -213,7 +236,6 @@ class AppState extends ChangeNotifier {
     await _exportService.share(payload);
   }
 
-  // Returns null on success, an error message string on failure, or empty string if cancelled.
   Future<String?> importPlan() async {
     final ImportResult result;
     try {
@@ -226,8 +248,19 @@ class AppState extends ChangeNotifier {
     _manuals = result.manuals!;
     _quantityOverrides = result.overrides!;
     _boughtItems = {};
-    await _planRepo.save(_slots);
-    await _shoppingRepo.save(_manuals, _quantityOverrides, _boughtItems);
+    // Write both fields in a single document update to avoid a mid-import flash
+    await FirebaseFirestore.instance
+        .collection('households')
+        .doc(_householdId)
+        .set({
+          'plan': {
+            for (final s in _slots)
+              if (s.mealName != null) '${s.dayKey}|${s.rawMealType}': s.mealName,
+          },
+          'manualItems': _manuals.map((m) => m.toJson()).toList(),
+          'quantityOverrides': _quantityOverrides.map((o) => o.toJson()).toList(),
+          'boughtItems': _boughtItems.toList(),
+        });
     notifyListeners();
     return null;
   }
