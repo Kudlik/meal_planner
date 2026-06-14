@@ -99,6 +99,28 @@ class MenuScreen extends StatefulWidget {
 
 class _MenuScreenState extends State<MenuScreen> {
   int _selectedDay = 0;
+  late final PageController _pageController;
+
+  @override
+  void initState() {
+    super.initState();
+    _pageController = PageController(initialPage: _selectedDay);
+  }
+
+  @override
+  void dispose() {
+    _pageController.dispose();
+    super.dispose();
+  }
+
+  void _goToDay(int index) {
+    setState(() => _selectedDay = index);
+    _pageController.animateToPage(
+      index,
+      duration: const Duration(milliseconds: 300),
+      curve: Curves.easeInOut,
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -129,23 +151,44 @@ class _MenuScreenState extends State<MenuScreen> {
               child: Center(
                 child: DaySelector(
                   selectedIndex: _selectedDay,
-                  onDaySelected: (i) => setState(() => _selectedDay = i),
+                  onDaySelected: _goToDay,
                 ),
               ),
             ),
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.only(bottom: 80),
-                child: Column(
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    for (final row in _mealRows)
-                      Expanded(
-                        child: _MealRow(
-                          rawMealType: row.$1,
-                          displayLabel: row.$2,
-                          dayKey: _dayKeys[_selectedDay],
+                    // Sticky meal type labels
+                    Column(
+                      children: [
+                        for (final row in _mealRows)
+                          Expanded(child: MealTypeCell(label: row.$1)),
+                      ],
+                    ),
+                    // Swipeable meal cards
+                    Expanded(
+                      child: PageView.builder(
+                        controller: _pageController,
+                        onPageChanged: (i) => setState(() => _selectedDay = i),
+                        itemCount: _dayKeys.length,
+                        itemBuilder: (context, index) => Column(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: [
+                            for (final row in _mealRows)
+                              Expanded(
+                                child: _MealCardSlot(
+                                  rawMealType: row.$1,
+                                  displayLabel: row.$2,
+                                  dayKey: _dayKeys[index],
+                                ),
+                              ),
+                          ],
                         ),
                       ),
+                    ),
                   ],
                 ),
               ),
@@ -157,14 +200,14 @@ class _MenuScreenState extends State<MenuScreen> {
   }
 }
 
-// ── Single meal row ───────────────────────────────────────────────────────────
+// ── Meal card slot (card only — label column is sticky outside PageView) ──────
 
-class _MealRow extends StatelessWidget {
+class _MealCardSlot extends StatelessWidget {
   final String rawMealType;
   final String displayLabel;
   final String dayKey;
 
-  const _MealRow({
+  const _MealCardSlot({
     required this.rawMealType,
     required this.displayLabel,
     required this.dayKey,
@@ -177,35 +220,24 @@ class _MealRow extends StatelessWidget {
     final meal = mealName != null ? state.mealInfo(mealName) : null;
 
     return Padding(
-      padding: const EdgeInsets.fromLTRB(0, 0, 12, 12),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          MealTypeCell(label: rawMealType),
-          Expanded(
-            child: Padding(
-              padding: const EdgeInsets.fromLTRB(64, 12, 84, 12),
-              child: MealCard(
-              mealName: mealName,
-              source: meal?.source,
-              page: meal?.page,
-              label: 'Dodaj\n$displayLabel',
-              onTap: mealName == null
-                  ? () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (_) => MealPickerScreen(
-                            dayKey: dayKey,
-                            rawMealType: rawMealType,
-                            displayMealType: displayLabel,
-                          ),
-                        ),
-                      )
-                  : () => _showMealActionsDrawer(context, dayKey, rawMealType),
-            ),
-            ),
-          ),
-        ],
+      padding: const EdgeInsets.fromLTRB(45, 12, 75, 12),
+      child: MealCard(
+        mealName: mealName,
+        source: meal?.source,
+        page: meal?.page,
+        label: 'Dodaj\n$displayLabel',
+        onTap: mealName == null
+            ? () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => MealPickerScreen(
+                      dayKey: dayKey,
+                      rawMealType: rawMealType,
+                      displayMealType: displayLabel,
+                    ),
+                  ),
+                )
+            : () => _showMealActionsDrawer(context, dayKey, rawMealType),
       ),
     );
   }
