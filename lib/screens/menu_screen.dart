@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
@@ -24,47 +23,6 @@ const _mealRows = [
 const _dayKeys = ['1-2', '3-4', '5-6', '7-8'];
 
 // ── Drawer helpers ────────────────────────────────────────────────────────────
-
-void _showPlanActionsDrawer(BuildContext context) {
-  final appState = context.read<AppState>();
-  showModalBottomSheet<void>(
-    context: context,
-    backgroundColor: Colors.transparent,
-    barrierColor: AppColors.backdrop,
-    isScrollControlled: true,
-    builder: (ctx) => BottomDrawer(
-      title: 'Opcje planu',
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          ShoppingRow(
-            name: 'Podziel się planem',
-            variant: ShoppingRowVariant.action,
-            leadingIcon: 'assets/icons/Share.svg',
-            onTap: () async {
-              Navigator.pop(ctx);
-              await appState.exportPlan();
-            },
-          ),
-          ShoppingRow(
-            name: 'Załaduj plan z pliku',
-            variant: ShoppingRowVariant.action,
-            leadingIcon: 'assets/icons/Upload.svg',
-            onTap: () async {
-              Navigator.pop(ctx);
-              final error = await appState.importPlan();
-              if (error != null && error.isNotEmpty && context.mounted) {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(content: Text(error)),
-                );
-              }
-            },
-          ),
-        ],
-      ),
-    ),
-  );
-}
 
 void _showMealActionsDrawer(BuildContext context, String dayKey, String rawMealType) {
   final appState = context.read<AppState>();
@@ -132,15 +90,6 @@ class _MenuScreenState extends State<MenuScreen> {
           children: [
             TopNavigation(
               title: 'Mój plan',
-              leading: GestureDetector(
-                onTap: () => _showPlanActionsDrawer(context),
-                child: SvgPicture.asset(
-                  'assets/icons/HamburgerMenu.svg',
-                  width: 24,
-                  height: 24,
-                  colorFilter: const ColorFilter.mode(AppColors.textOnAccent, BlendMode.srcIn),
-                ),
-              ),
               trailing: GestureDetector(
                 onTap: () => context.read<AppState>().clearPlan(),
                 child: Text('Wyczyść plan', style: AppTextStyles.navLabel),

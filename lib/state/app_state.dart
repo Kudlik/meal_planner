@@ -5,7 +5,6 @@ import '../models/models.dart';
 import '../data/recipe_repository.dart';
 import '../data/plan_repository.dart';
 import '../data/shopping_repository.dart';
-import '../data/plan_export_service.dart';
 
 class AppState extends ChangeNotifier {
   final RecipeRepository _recipes = RecipeRepository();
@@ -227,41 +226,4 @@ class AppState extends ChangeNotifier {
     }
   }
 
-  // --- Export / Import ---
-
-  final _exportService = PlanExportService();
-
-  Future<void> exportPlan() async {
-    final payload = _exportService.buildExportJson(_slots, _manuals, _quantityOverrides);
-    await _exportService.share(payload);
-  }
-
-  Future<String?> importPlan() async {
-    final ImportResult result;
-    try {
-      result = await _exportService.pickAndParse();
-    } catch (e) {
-      return e.toString();
-    }
-    if (result.cancelled) return '';
-    _slots = result.slots!;
-    _manuals = result.manuals!;
-    _quantityOverrides = result.overrides!;
-    _boughtItems = {};
-    // Write both fields in a single document update to avoid a mid-import flash
-    await FirebaseFirestore.instance
-        .collection('households')
-        .doc(_householdId)
-        .set({
-          'plan': {
-            for (final s in _slots)
-              if (s.mealName != null) '${s.dayKey}|${s.rawMealType}': s.mealName,
-          },
-          'manualItems': _manuals.map((m) => m.toJson()).toList(),
-          'quantityOverrides': _quantityOverrides.map((o) => o.toJson()).toList(),
-          'boughtItems': _boughtItems.toList(),
-        });
-    notifyListeners();
-    return null;
-  }
 }

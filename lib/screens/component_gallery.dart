@@ -72,7 +72,6 @@ class ComponentGallery extends StatelessWidget {
           ShoppingRow(name: 'Element listy', quantity: '35g', category: 'konserwowe', isBought: false, onToggle: () {}, onEdit: () {}),
           ShoppingRow(name: 'Element listy', quantity: '35g', category: 'konserwowe', isBought: true, onToggle: () {}),
           ShoppingRow(name: 'Placuszki czekoladowe z twarożkiem', variant: ShoppingRowVariant.picker, onTap: () {}),
-          ShoppingRow(name: 'Podziel się planem', variant: ShoppingRowVariant.action, leadingIcon: 'assets/icons/Share.svg', onTap: () {}),
           ShoppingRow(name: 'Usuń posiłek z menu', variant: ShoppingRowVariant.action, leadingIcon: 'assets/icons/Trash.svg', onTap: () {}),
 
           _Section(title: 'Top Navigation'),
