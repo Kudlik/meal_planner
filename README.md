@@ -1,29 +1,36 @@
-# Meal Planner
+# Jedzonko
 
-A simple, offline-first Flutter app for planning weekly meals and generating a shopping list automatically.
+A Flutter meal planning app for households. Plan the week's meals on a shared grid, track what's been cooked and eaten, and get a shopping list that updates automatically as meals are prepared.
 
 ## Overview
 
-Meal Planner lets you assign recipes to a 2-week grid (8 days, split into 4 day-pairs), then automatically builds a shopping list from the ingredients of your chosen meals. Everything is stored locally on the device — no account, no backend, no internet connection required.
+Jedzonko lets you assign recipes to a 2-week grid (8 days split into 4 day-pairs) across 4 meal types. The plan and shopping list sync in real time across all household devices via Firebase — no login required. As meals are marked as prepared or eaten, their ingredients are automatically removed from the shopping list.
 
 ## Features
 
 ### Menu planning
-- 4×4 grid of meal slots: 4 day-pairs (Dni 1-2, 3-4, 5-6, 7-8) × 4 meal types (Śniadanie, Deser, Lunch, Kolacja)
-- Browse and pick recipes from a built-in recipe library, filtered by meal type
-- Remove individual meals from a slot or clear the entire plan at once
+- 4×4 swipeable grid: 4 day-pairs (Dni 1–2, 3–4, 5–6, 7–8) × 4 meal types (Śniadanie, Deser, Lunch, Kolacja)
+- Browse and pick recipes from a built-in library, filtered by meal type
+- Swipe left/right to navigate between day-pairs; meal type labels stay fixed
+- Tap a filled card to mark it as **Prepared** or **Eaten**, or remove it from the plan
+
+### Meal status tracking
+- **Prepared** — meal has been cooked; ingredients are removed from the shopping list; MealReady icon shown on the card
+- **Eaten** — meal has been eaten; card switches to a dark muted style with the Eaten icon
+- Tapping the same status again toggles it back to normal
 
 ### Shopping list
-- Automatically generated from all assigned meals; ingredients are summed across the full plan (quantities scaled for 2 people × 2 days per slot)
-- Manual items can be added, edited, and categorised independently of the plan
-- Quantities of recipe-derived items can be adjusted without affecting the underlying recipe data
-- Items are grouped and sorted by category (owoce, warzywa, nabiał, mięso, sypkie, etc.)
-- Mark items as bought — checked items move to the bottom of the list and the state persists across app restarts
+- Auto-generated from all planned meals that haven't been prepared or eaten yet
+- Ingredients are summed across the full plan (scaled for 2 people × 2 days per slot)
+- Manual items can be added, edited, and categorised
+- Quantities of recipe-derived items can be adjusted per-item
+- Items grouped and sorted by category (owoce, warzywa, nabiał, mięso, sypkie, etc.)
+- Mark items as bought — checked items move to the bottom and state persists
 
-### Export & import
-- Share the current plan as a `plan.json` file via the native OS share sheet (AirDrop, email, messaging apps, etc.)
-- Load a previously exported plan from a JSON file using the native file picker
-- Fully offline and peer-to-peer — no cloud service involved
+### Real-time household sync
+- All changes (plan, statuses, shopping list) sync instantly across devices via Firestore
+- No account or login — the household shares a single hardcoded document (`household_01`)
+- Optimistic UI: local state updates immediately, Firestore confirms in the background
 
 ## Tech stack
 
@@ -31,23 +38,26 @@ Meal Planner lets you assign recipes to a 2-week grid (8 days, split into 4 day-
 |---|---|
 | Framework | Flutter (Dart) |
 | State management | Provider (`ChangeNotifier`) |
-| Persistence | JSON files via `path_provider` |
-| File sharing | `share_plus` |
-| File picking | `file_picker` |
+| Backend / sync | Firebase Firestore |
+| Icons | SVG via `flutter_svg` |
 
 ## Project structure
 
 ```
 lib/
-├── data/           # Repositories and export/import service
+├── data/           # Repositories (PlanRepository, ShoppingRepository, RecipeRepository)
 ├── models/         # Data models (Meal, Ingredient, PlanSlot, ShoppingItem, ...)
-├── screens/        # UI screens (MenuScreen, ShoppingListScreen, MealPickerScreen)
-├── state/          # AppState (ChangeNotifier, single source of truth)
+├── screens/        # UI screens (MenuScreen, ShoppingListScreen, MealPickerScreen, SplashScreen)
+├── state/          # AppState — single source of truth, subscribes to Firestore stream
 ├── theme/          # Colors and text styles
-└── widgets/        # Shared widgets (CategoryBadge, ...)
+└── widgets/        # Shared widgets (MealCard, TopNavigation, BottomDrawer, ...)
 ```
 
 ## Getting started
+
+1. Set up a Firebase project and run `flutterfire configure --platforms=android` to generate `firebase_options.dart` and `google-services.json`
+2. Create a Firestore database in the Firebase console
+3. Then:
 
 ```bash
 flutter pub get
