@@ -8,6 +8,7 @@ class TopNavigation extends StatelessWidget {
   final VoidCallback? onBack; // convenience: renders the Back.svg icon
   final Widget? leading;      // overrides onBack when provided
   final Widget? trailing;
+  final VoidCallback? onTitleTap;
 
   const TopNavigation({
     super.key,
@@ -15,6 +16,7 @@ class TopNavigation extends StatelessWidget {
     this.onBack,
     this.leading,
     this.trailing,
+    this.onTitleTap,
   });
 
   @override
@@ -48,10 +50,14 @@ class TopNavigation extends StatelessWidget {
             const SizedBox(width: 24),
           ],
           Expanded(
-            child: Text(
-              title,
-              style: AppTextStyles.headlineSmall,
-              textAlign: TextAlign.center,
+            child: GestureDetector(
+              onTap: onTitleTap,
+              behavior: HitTestBehavior.opaque,
+              child: Text(
+                title,
+                style: AppTextStyles.headlineSmall,
+                textAlign: TextAlign.center,
+              ),
             ),
           ),
           if (trailing != null) ...[

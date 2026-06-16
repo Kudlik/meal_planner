@@ -8,6 +8,7 @@ class MealCard extends StatelessWidget {
   final int? page;
   final String label; // e.g. "Dodaj\nśniadanie" — shown in empty state
   final VoidCallback? onTap;
+  final String? status; // null | 'prepared' | 'eaten'
 
   final double? width;  // null = fill parent
   final double? height; // null = fill parent
@@ -19,6 +20,7 @@ class MealCard extends StatelessWidget {
     this.page,
     required this.label,
     this.onTap,
+    this.status,
     this.width,
     this.height,
   });
@@ -54,10 +56,19 @@ class MealCard extends StatelessWidget {
             ? const EdgeInsets.all(6)
             : const EdgeInsets.symmetric(vertical: 12, horizontal: 6),
         decoration: BoxDecoration(
-          color: AppColors.surface,
+          color: status == 'eaten' ? AppColors.textDark : AppColors.surface,
           borderRadius: BorderRadius.circular(10),
+          border: status == 'eaten'
+              ? Border.all(color: AppColors.textSecondary, width: 1)
+              : null,
         ),
-        child: _isEmpty ? _buildEmpty() : _buildFull(),
+        child: _isEmpty
+            ? _buildEmpty()
+            : status == 'prepared'
+                ? _buildPrepared()
+                : status == 'eaten'
+                    ? _buildEaten()
+                    : _buildFull(),
       ),
     );
   }
@@ -113,6 +124,62 @@ class MealCard extends StatelessWidget {
             alignment: Alignment.centerRight,
             child: Text('str. $page', style: _sourceStyle),
           ),
+      ],
+    );
+  }
+
+  Widget _buildPrepared() => _buildStatusCard(
+    iconPath: 'assets/icons/MealReady.svg',
+    textColor: AppColors.textOnCard,
+  );
+
+  Widget _buildEaten() => _buildStatusCard(
+    iconPath: 'assets/icons/Eaten.svg',
+    textColor: AppColors.textSecondary,
+  );
+
+  Widget _buildStatusCard({required String iconPath, required Color textColor}) {
+    final labelStyle = _labelStyle.copyWith(color: textColor);
+    final sourceStyle = _sourceStyle.copyWith(color: textColor);
+    return Stack(
+      children: [
+        Center(
+          child: Text(
+            mealName!,
+            style: labelStyle,
+            textAlign: TextAlign.center,
+            maxLines: 5,
+            overflow: TextOverflow.ellipsis,
+          ),
+        ),
+        Positioned(
+          bottom: 0,
+          left: 12,
+          right: 12,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: [
+              SvgPicture.asset(
+                iconPath,
+                width: 20,
+                height: 20,
+                colorFilter: ColorFilter.mode(textColor, BlendMode.srcIn),
+              ),
+              if (source != null || (page != null && page! > 0))
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    if (source != null && source!.isNotEmpty)
+                      Text(source!, style: sourceStyle, maxLines: 1, overflow: TextOverflow.ellipsis),
+                    if (page != null && page! > 0)
+                      Text('str. $page', style: sourceStyle),
+                  ],
+                ),
+            ],
+          ),
+        ),
       ],
     );
   }

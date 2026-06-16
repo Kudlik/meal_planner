@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../state/app_state.dart';
@@ -10,6 +11,7 @@ import '../widgets/meal_card.dart';
 import '../widgets/bottom_drawer.dart';
 import '../widgets/shopping_row.dart';
 import 'meal_picker_screen.dart';
+import 'component_gallery.dart';
 
 // ── Meal type definitions ─────────────────────────────────────────────────────
 // ($1 = rawMealType used as data key, $2 = display label in accusative case)
@@ -33,14 +35,37 @@ void _showMealActionsDrawer(BuildContext context, String dayKey, String rawMealT
     isScrollControlled: true,
     builder: (ctx) => BottomDrawer(
       title: 'Opcje posiłku:',
-      child: ShoppingRow(
-        name: 'Usuń posiłek z menu',
-        variant: ShoppingRowVariant.action,
-        leadingIcon: 'assets/icons/Trash.svg',
-        onTap: () {
-          Navigator.pop(ctx);
-          appState.removeFromSlot(dayKey, rawMealType);
-        },
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          ShoppingRow(
+            name: 'Oznacz posiłek jako przygotowany',
+            variant: ShoppingRowVariant.action,
+            leadingIcon: 'assets/icons/MealReady.svg',
+            onTap: () {
+              Navigator.pop(ctx);
+              appState.setMealStatus(dayKey, rawMealType, 'prepared');
+            },
+          ),
+          ShoppingRow(
+            name: 'Oznacz posiłek jako zjedzony',
+            variant: ShoppingRowVariant.action,
+            leadingIcon: 'assets/icons/Eaten.svg',
+            onTap: () {
+              Navigator.pop(ctx);
+              appState.setMealStatus(dayKey, rawMealType, 'eaten');
+            },
+          ),
+          ShoppingRow(
+            name: 'Usuń posiłek z menu',
+            variant: ShoppingRowVariant.action,
+            leadingIcon: 'assets/icons/Trash.svg',
+            onTap: () {
+              Navigator.pop(ctx);
+              appState.removeFromSlot(dayKey, rawMealType);
+            },
+          ),
+        ],
       ),
     ),
   );
@@ -58,6 +83,8 @@ class MenuScreen extends StatefulWidget {
 class _MenuScreenState extends State<MenuScreen> {
   int _selectedDay = 0;
   late final PageController _pageController;
+  int _titleTapCount = 0;
+  Timer? _titleTapTimer;
 
   @override
   void initState() {
@@ -68,6 +95,7 @@ class _MenuScreenState extends State<MenuScreen> {
   @override
   void dispose() {
     _pageController.dispose();
+    _titleTapTimer?.cancel();
     super.dispose();
   }
 
@@ -80,6 +108,17 @@ class _MenuScreenState extends State<MenuScreen> {
     );
   }
 
+  void _onTitleTap() {
+    _titleTapCount++;
+    _titleTapTimer?.cancel();
+    _titleTapTimer = Timer(const Duration(seconds: 2), () => _titleTapCount = 0);
+    if (_titleTapCount >= 6) {
+      _titleTapCount = 0;
+      _titleTapTimer?.cancel();
+      Navigator.push(context, MaterialPageRoute(builder: (_) => const ComponentGallery()));
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -90,6 +129,7 @@ class _MenuScreenState extends State<MenuScreen> {
           children: [
             TopNavigation(
               title: 'Mój plan',
+              onTitleTap: _onTitleTap,
               trailing: GestureDetector(
                 onTap: () => context.read<AppState>().clearPlan(),
                 child: Text('Wyczyść plan', style: AppTextStyles.navLabel),
@@ -165,7 +205,8 @@ class _MealCardSlot extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final state = context.watch<AppState>();
-    final mealName = state.slotFor(dayKey, rawMealType)?.mealName;
+    final slot = state.slotFor(dayKey, rawMealType);
+    final mealName = slot?.mealName;
     final meal = mealName != null ? state.mealInfo(mealName) : null;
 
     return Padding(
@@ -175,6 +216,7 @@ class _MealCardSlot extends StatelessWidget {
         source: meal?.source,
         page: meal?.page,
         label: 'Dodaj\n$displayLabel',
+        status: slot?.status,
         onTap: mealName == null
             ? () => Navigator.push(
                   context,

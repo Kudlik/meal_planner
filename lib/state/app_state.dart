@@ -41,7 +41,10 @@ class AppState extends ChangeNotifier {
       return;
     }
     final data = snap.data()!;
-    _slots = PlanRepository.slotsFromMap(data['plan'] as Map<String, dynamic>?);
+    _slots = PlanRepository.slotsFromMap(
+      data['plan'] as Map<String, dynamic>?,
+      data['slotStatuses'] as Map<String, dynamic>?,
+    );
     final overrides = ShoppingRepository.overridesFromMap(data);
     _manuals = overrides.manuals;
     _quantityOverrides = overrides.overrides;
@@ -84,6 +87,16 @@ class AppState extends ChangeNotifier {
     final slot = slotFor(dayKey, rawMealType);
     if (slot != null) {
       slot.mealName = null;
+      slot.status = null;
+      _planRepo.save(_slots);
+      notifyListeners();
+    }
+  }
+
+  void setMealStatus(String dayKey, String rawMealType, String newStatus) {
+    final slot = slotFor(dayKey, rawMealType);
+    if (slot != null) {
+      slot.status = slot.status == newStatus ? null : newStatus;
       _planRepo.save(_slots);
       notifyListeners();
     }
@@ -92,6 +105,7 @@ class AppState extends ChangeNotifier {
   void clearPlan() {
     for (final slot in _slots) {
       slot.mealName = null;
+      slot.status = null;
     }
     _manuals.clear();
     _quantityOverrides.clear();
@@ -107,7 +121,7 @@ class AppState extends ChangeNotifier {
 
   List<ShoppingItem> get shoppingItems {
     final assignedMeals = _slots
-        .where((s) => s.mealName != null)
+        .where((s) => s.mealName != null && s.status == null)
         .map((s) => s.mealName!)
         .toList();
 

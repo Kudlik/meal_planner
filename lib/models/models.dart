@@ -44,19 +44,22 @@ class PlanSlot {
   final String dayKey;      // "1-2", "3-4", "5-6", "7-8"
   final String rawMealType; // JSON value: Śniadanie, Deser, Lunch, Kolacja
   String? mealName;
+  String? status;           // null | 'prepared' | 'eaten'
 
-  PlanSlot({required this.dayKey, required this.rawMealType, this.mealName});
+  PlanSlot({required this.dayKey, required this.rawMealType, this.mealName, this.status});
 
   Map<String, dynamic> toJson() => {
     'dayKey': dayKey,
     'rawMealType': rawMealType,
     'mealName': mealName,
+    'status': status,
   };
 
   factory PlanSlot.fromJson(Map<String, dynamic> j) => PlanSlot(
     dayKey: j['dayKey'] as String,
     rawMealType: j['rawMealType'] as String,
     mealName: j['mealName'] as String?,
+    status: j['status'] as String?,
   );
 }
 

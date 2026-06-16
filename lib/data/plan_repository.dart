@@ -11,12 +11,16 @@ class PlanRepository {
 
   Future<void> save(List<PlanSlot> slots) {
     final map = <String, dynamic>{};
+    final statusMap = <String, dynamic>{};
     for (final slot in slots) {
       if (slot.mealName != null) {
         map['${slot.dayKey}|${slot.rawMealType}'] = slot.mealName;
       }
+      if (slot.status != null) {
+        statusMap['${slot.dayKey}|${slot.rawMealType}'] = slot.status;
+      }
     }
-    return _doc.set({'plan': map}, SetOptions(merge: true));
+    return _doc.set({'plan': map, 'slotStatuses': statusMap}, SetOptions(merge: true));
   }
 
   List<PlanSlot> emptySlots() => [
@@ -25,8 +29,12 @@ class PlanRepository {
         PlanSlot(dayKey: day, rawMealType: type),
   ];
 
-  static List<PlanSlot> slotsFromMap(Map<String, dynamic>? planMap) {
+  static List<PlanSlot> slotsFromMap(
+    Map<String, dynamic>? planMap, [
+    Map<String, dynamic>? statusMap,
+  ]) {
     planMap ??= {};
+    statusMap ??= {};
     return [
       for (final day in _dayKeys)
         for (final type in _rawMealTypes)
@@ -34,6 +42,7 @@ class PlanRepository {
             dayKey: day,
             rawMealType: type,
             mealName: planMap['$day|$type'] as String?,
+            status: statusMap['$day|$type'] as String?,
           ),
     ];
   }
