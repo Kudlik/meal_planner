@@ -106,7 +106,7 @@ class _SplashScreenState extends State<SplashScreen>
               child: ScaleTransition(
                 scale: _iconScale,
                 child: SvgPicture.asset(
-                  'assets/icons/Menu.svg',
+                  'assets/icons/MealReadyBig.svg',
                   width: 80,
                   height: 80,
                   colorFilter: const ColorFilter.mode(AppColors.accent, BlendMode.srcIn),
