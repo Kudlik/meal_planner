@@ -203,7 +203,7 @@ class AppState extends ChangeNotifier {
 
   double _computedQuantity(String itemName) {
     double total = 0.0;
-    for (final mealName in _slots.where((s) => s.mealName != null).map((s) => s.mealName!)) {
+    for (final mealName in _slots.where((s) => s.mealName != null && s.status == null).map((s) => s.mealName!)) {
       for (final ing in _recipes.ingredientsForMeal(mealName)) {
         if (ing.name == itemName) total += ing.quantityPer1 * 4;
       }
