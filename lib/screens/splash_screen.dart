@@ -109,7 +109,7 @@ class _SplashScreenState extends State<SplashScreen>
                   'assets/icons/MealReadyBig.svg',
                   width: 80,
                   height: 80,
-                  colorFilter: const ColorFilter.mode(AppColors.accent, BlendMode.srcIn),
+                  colorFilter: const ColorFilter.mode(AppColors.accentBright, BlendMode.srcIn),
                 ),
               ),
             ),
