@@ -1263,6 +1263,614 @@
       "Typ_posilku_tech": "4_Kolacja",
       "Żrodło": "Wysokobiałkowe – str. 80",
       "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Makaron Orzo z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 4",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Polędwiczki w sosie musztardowym",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 5",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Udon Carbonara",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 6",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Spaghetti Bolognese",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 7",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Naleśniki ze skyrem i dżemem",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 8",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Szarpany kurczak z ziemniakami",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 9",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Fasolka po bretońsku",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 10",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Placki z jabłkami",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 11",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Racuchy bananowe z twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 12",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Krem czosnkowy z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 13",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Zupa chrzanowa",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 14",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Krem z buraków z grzankami i fetą",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 15",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Krem z dyni z curry",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 16",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Krem z cebuli",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 17",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Leczo z kiełbasą",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 18",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Risotto z kurczakiem i pieczarkami",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 19",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Strogonow z polędwiczką",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 20",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Szare kluski ze skwarkami i twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 21",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Zapiekanka makaronowa z szynką",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 22",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Pappardelle z kurczakiem i grzybami",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 23",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Kotlety mielone z buraczkami i puree",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 24",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Zupa musztardowa",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 25",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Placki ziemniaczane z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 26",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Zupa ogórkowa",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 27",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Botwinka",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 28",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Krem z kalafiora",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 29",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Zupa buraczkowa",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 30",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Zupa czosnkowa",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 31",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Grochówka",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 32",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Zupa jarzynowa",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 33",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Sałatka z pieczoną dynią, halloumi i kurczakiem",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 34",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Crumble ze śliwkami i białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Typ_posilku_tech": "2_Deser",
+      "Żrodło": "Bilanser – str. 35",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Owoce pod białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Typ_posilku_tech": "2_Deser",
+      "Żrodło": "Bilanser – str. 36",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Zapiekana gruszka pod białkową kruszonką z gorzką czekoladą",
+      "Typ_posiłku": "Deser",
+      "Typ_posilku_tech": "2_Deser",
+      "Żrodło": "Bilanser – str. 37",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Blok czekoladowy ze skyrówką i herbatnikami",
+      "Typ_posiłku": "Deser",
+      "Typ_posilku_tech": "2_Deser",
+      "Żrodło": "Bilanser – str. 38",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Fishburgery z frytkami",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 39",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Medaliony warzywne Ikea",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 40",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Chłopski garnek z ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 41",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Filet z indyka w sosie po luizjańsku z ryżem",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 42",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Leczo z dynią i kiełbasą drobiową",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 43",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Tost z chlebem żytnim, masłem orzechowym i bananem",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 44",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Pstrąg z ziemniakami i sałatką",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 45",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Domowa granola",
+      "Typ_posiłku": "Deser",
+      "Typ_posilku_tech": "2_Deser",
+      "Żrodło": "Bilanser – str. 46",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Kanapki z hummusem, szynką z kurczaka i warzywami",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 47",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Placuszki owsiane z czekoladą i borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 48",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Tosty z pesto, mozzarellą i pomidorem",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 49",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Gulasz warzywny z batatami, fasolą i ciecierzycą",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 50",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Power bowl z batatami, awokado i jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 51",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Bajgiel z pikantnym tuńczykiem i serem",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 52",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Bajgiel z boczkiem, serem i jajkiem sadzonym",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 53",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Owsianka z Inką",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 54",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Gulasz drobiowy z ogórkiem kiszonym",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 55",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Owsianka bounty",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 56",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Polędwiczki w sosie porowo-śmietanowym",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 57",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Fasola tikka masala z tofu",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 58",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Sałatka nicejska",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 59",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Curry z kalafiora z indykiem",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 60",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Gofry z serka wiejskiego ze świeżymi owocami",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 61",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Kluski leniwe z bułką tartą i borówkami",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 62",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Gofry twarogowe z borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 63",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Poke bowl z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 64",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Placki z serka wiejskiego z truskawkami",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 65",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Omlet białkowy",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 66",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Tosty mleczne",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 67",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Szakszuka ze szpinakiem",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 68",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Grzanki z awokado i łososiem",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 69",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Kluski leniwe z twarogu i skyru z malinami",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 70",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Czekoladowy budyń jaglany",
+      "Typ_posiłku": "Deser",
+      "Typ_posilku_tech": "2_Deser",
+      "Żrodło": "Bilanser – str. 71",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Paprykarz z makrelą i chlebem żytnim",
+      "Typ_posiłku": "Śniadanie",
+      "Typ_posilku_tech": "1_Sniadanie",
+      "Żrodło": "Bilanser – str. 72",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Kanapka drwala z boczkiem i kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 73",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Gzik wielkopolski z pieczonymi ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 74",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Kurczak na ryżu z ogórkami kiszonymi",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 75",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Sałatka drwala",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 76",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Sałatka Jennifer Aniston",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 77",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Frankfurterki drobiowe w sosie chrzanowym",
+      "Typ_posiłku": "Kolacja",
+      "Typ_posilku_tech": "4_Kolacja",
+      "Żrodło": "Bilanser – str. 78",
+      "Dzień": null
+    },
+    {
+      "Wybierz": false,
+      "Nazwa_dania": "Sałatka z jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Typ_posilku_tech": "3_Lunch",
+      "Żrodło": "Bilanser – str. 79",
+      "Dzień": null
     }
   ],
   "PLAN_8_DNI": [
@@ -14491,6 +15099,5262 @@
       "Jednostka": "g",
       "Plik": "Wysokobiałkowe",
       "Strona": 80.0
+    },
+    {
+      "Nazwa_dania": "Makaron Orzo z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Makaron Orzo (dry)",
+      "Gramatura_na_1_porcję": 45.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 4.0
+    },
+    {
+      "Nazwa_dania": "Makaron Orzo z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 4.0
+    },
+    {
+      "Nazwa_dania": "Makaron Orzo z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Szpinak świeży",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 4.0
+    },
+    {
+      "Nazwa_dania": "Makaron Orzo z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Suszone pomidory (odsączone)",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 4.0
+    },
+    {
+      "Nazwa_dania": "Makaron Orzo z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pomidorki koktajlowe",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 4.0
+    },
+    {
+      "Nazwa_dania": "Makaron Orzo z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Śmietanka 12%",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 4.0
+    },
+    {
+      "Nazwa_dania": "Makaron Orzo z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 4.0
+    },
+    {
+      "Nazwa_dania": "Makaron Orzo z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 4.0
+    },
+    {
+      "Nazwa_dania": "Makaron Orzo z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Woda z gotowania makaronu",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 4.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie musztardowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Polędwiczkа wieprzowa",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 5.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie musztardowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Kasza jęczmienna pęczak (dry)",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 5.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie musztardowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Fasolka szparagowa",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 5.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie musztardowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Musztarda (np. delikatesowa)",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 5.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie musztardowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Musztarda francuska",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 5.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie musztardowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Śmietanka 12%",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 5.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie musztardowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 5.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie musztardowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 5.0
+    },
+    {
+      "Nazwa_dania": "Udon Carbonara",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Makaron Udon (świeży/pasteryzowany)",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 6.0
+    },
+    {
+      "Nazwa_dania": "Udon Carbonara",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Boczek wędzony surowy/parzony",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 6.0
+    },
+    {
+      "Nazwa_dania": "Udon Carbonara",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Żółtko jaja",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 6.0
+    },
+    {
+      "Nazwa_dania": "Udon Carbonara",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ser Grana Padano lub Parmezan",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 6.0
+    },
+    {
+      "Nazwa_dania": "Udon Carbonara",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 6.0
+    },
+    {
+      "Nazwa_dania": "Udon Carbonara",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Woda z gotowania makaronu",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 6.0
+    },
+    {
+      "Nazwa_dania": "Spaghetti Bolognese",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Makaron spaghetti (dry)",
+      "Gramatura_na_1_porcję": 55.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 7.0
+    },
+    {
+      "Nazwa_dania": "Spaghetti Bolognese",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Mięso mielone z piersi kurczaka lub indyka",
+      "Gramatura_na_1_porcję": 90.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 7.0
+    },
+    {
+      "Nazwa_dania": "Spaghetti Bolognese",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Passata pomidorowa",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 7.0
+    },
+    {
+      "Nazwa_dania": "Spaghetti Bolognese",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 7.0
+    },
+    {
+      "Nazwa_dania": "Spaghetti Bolognese",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 7.0
+    },
+    {
+      "Nazwa_dania": "Spaghetti Bolognese",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 7.0
+    },
+    {
+      "Nazwa_dania": "Spaghetti Bolognese",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ser Parmezan / Grana Padano",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 7.0
+    },
+    {
+      "Nazwa_dania": "Naleśniki ze skyrem i dżemem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Naleśniki (z przepisu Ania Gotuje)",
+      "Gramatura_na_1_porcję": 2.0,
+      "Jednostka": "sztuki",
+      "Plik": "Bilanser",
+      "Strona": 8.0
+    },
+    {
+      "Nazwa_dania": "Naleśniki ze skyrem i dżemem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 145.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 8.0
+    },
+    {
+      "Nazwa_dania": "Naleśniki ze skyrem i dżemem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Dżem wiśniowy Maribel z Lidla",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 8.0
+    },
+    {
+      "Nazwa_dania": "Szarpany kurczak z ziemniakami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 110.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 9.0
+    },
+    {
+      "Nazwa_dania": "Szarpany kurczak z ziemniakami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 220.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 9.0
+    },
+    {
+      "Nazwa_dania": "Szarpany kurczak z ziemniakami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pomidor",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 9.0
+    },
+    {
+      "Nazwa_dania": "Szarpany kurczak z ziemniakami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ogórek świeży",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 9.0
+    },
+    {
+      "Nazwa_dania": "Szarpany kurczak z ziemniakami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Jogurt naturalny (3% tłuszczu)",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 9.0
+    },
+    {
+      "Nazwa_dania": "Szarpany kurczak z ziemniakami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 9.0
+    },
+    {
+      "Nazwa_dania": "Fasolka po bretońsku",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Boczek wędzony surowy/parzony",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 10.0
+    },
+    {
+      "Nazwa_dania": "Fasolka po bretońsku",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Kiełbasa z piersi kurczaka/chuda",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 10.0
+    },
+    {
+      "Nazwa_dania": "Fasolka po bretońsku",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Fasola biała (konserwowa/odsączona)",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 10.0
+    },
+    {
+      "Nazwa_dania": "Fasolka po bretońsku",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Passata pomidorowa / przecier",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 10.0
+    },
+    {
+      "Nazwa_dania": "Fasolka po bretońsku",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 10.0
+    },
+    {
+      "Nazwa_dania": "Fasolka po bretońsku",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 10.0
+    },
+    {
+      "Nazwa_dania": "Fasolka po bretońsku",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Chleb żytni na zakwasie",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 10.0
+    },
+    {
+      "Nazwa_dania": "Placki z jabłkami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Jabłko",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 11.0
+    },
+    {
+      "Nazwa_dania": "Placki z jabłkami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 11.0
+    },
+    {
+      "Nazwa_dania": "Placki z jabłkami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 11.0
+    },
+    {
+      "Nazwa_dania": "Placki z jabłkami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Mąka pszenna",
+      "Gramatura_na_1_porcję": 35.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 11.0
+    },
+    {
+      "Nazwa_dania": "Placki z jabłkami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Olej rzepakowy",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 11.0
+    },
+    {
+      "Nazwa_dania": "Placki z jabłkami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Proszek do pieczenia",
+      "Gramatura_na_1_porcję": 2.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 11.0
+    },
+    {
+      "Nazwa_dania": "Racuchy bananowe z twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Banan (dojrzały)",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 12.0
+    },
+    {
+      "Nazwa_dania": "Racuchy bananowe z twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Twaróg chudy",
+      "Gramatura_na_1_porcję": 70.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 12.0
+    },
+    {
+      "Nazwa_dania": "Racuchy bananowe z twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 12.0
+    },
+    {
+      "Nazwa_dania": "Racuchy bananowe z twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Mąka pszenna",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 12.0
+    },
+    {
+      "Nazwa_dania": "Racuchy bananowe z twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Olej rzepakowy",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 12.0
+    },
+    {
+      "Nazwa_dania": "Racuchy bananowe z twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Proszek do pieczenia",
+      "Gramatura_na_1_porcję": 2.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 12.0
+    },
+    {
+      "Nazwa_dania": "Krem czosnkowy z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 110.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 13.0
+    },
+    {
+      "Nazwa_dania": "Krem czosnkowy z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 160.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 13.0
+    },
+    {
+      "Nazwa_dania": "Krem czosnkowy z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 13.0
+    },
+    {
+      "Nazwa_dania": "Krem czosnkowy z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 13.0
+    },
+    {
+      "Nazwa_dania": "Krem czosnkowy z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Chleb pszenny lub żytni",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 13.0
+    },
+    {
+      "Nazwa_dania": "Krem czosnkowy z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 13.0
+    },
+    {
+      "Nazwa_dania": "Krem czosnkowy z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Śmietanka 12%",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 13.0
+    },
+    {
+      "Nazwa_dania": "Krem czosnkowy z kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bulion warzywny lub drobiowy",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 13.0
+    },
+    {
+      "Nazwa_dania": "Zupa chrzanowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Zakwas na żurek",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 14.0
+    },
+    {
+      "Nazwa_dania": "Zupa chrzanowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 14.0
+    },
+    {
+      "Nazwa_dania": "Zupa chrzanowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 14.0
+    },
+    {
+      "Nazwa_dania": "Zupa chrzanowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Wędzona pierś z kurczaka",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 14.0
+    },
+    {
+      "Nazwa_dania": "Zupa chrzanowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Boczek wędzony surowy/parzony",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 14.0
+    },
+    {
+      "Nazwa_dania": "Zupa chrzanowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 14.0
+    },
+    {
+      "Nazwa_dania": "Zupa chrzanowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Chrzan tarty",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 14.0
+    },
+    {
+      "Nazwa_dania": "Zupa chrzanowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Bulion warzywny",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 14.0
+    },
+    {
+      "Nazwa_dania": "Zupa chrzanowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 14.0
+    },
+    {
+      "Nazwa_dania": "Zupa chrzanowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 14.0
+    },
+    {
+      "Nazwa_dania": "Krem z buraków z grzankami i fetą",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Buraki gotowane",
+      "Gramatura_na_1_porcję": 200.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 15.0
+    },
+    {
+      "Nazwa_dania": "Krem z buraków z grzankami i fetą",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Serek wiejski lekki",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 15.0
+    },
+    {
+      "Nazwa_dania": "Krem z buraków z grzankami i fetą",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ser feta light",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 15.0
+    },
+    {
+      "Nazwa_dania": "Krem z buraków z grzankami i fetą",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Chleb żytni",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 15.0
+    },
+    {
+      "Nazwa_dania": "Krem z buraków z grzankami i fetą",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Bulion warzywny",
+      "Gramatura_na_1_porcję": 200.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 15.0
+    },
+    {
+      "Nazwa_dania": "Krem z buraków z grzankami i fetą",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 15.0
+    },
+    {
+      "Nazwa_dania": "Krem z buraków z grzankami i fetą",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 15.0
+    },
+    {
+      "Nazwa_dania": "Krem z buraków z grzankami i fetą",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 15.0
+    },
+    {
+      "Nazwa_dania": "Krem z buraków z grzankami i fetą",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Sok z cytryny",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 15.0
+    },
+    {
+      "Nazwa_dania": "Krem z dyni z curry",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Dynia hokkaido",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 16.0
+    },
+    {
+      "Nazwa_dania": "Krem z dyni z curry",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Mleczko kokosowe light",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 16.0
+    },
+    {
+      "Nazwa_dania": "Krem z dyni z curry",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Chleb żytni razowy",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 16.0
+    },
+    {
+      "Nazwa_dania": "Krem z dyni z curry",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 16.0
+    },
+    {
+      "Nazwa_dania": "Krem z dyni z curry",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Bulion warzywny",
+      "Gramatura_na_1_porcję": 200.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 16.0
+    },
+    {
+      "Nazwa_dania": "Krem z dyni z curry",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 16.0
+    },
+    {
+      "Nazwa_dania": "Krem z dyni z curry",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 16.0
+    },
+    {
+      "Nazwa_dania": "Krem z dyni z curry",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 16.0
+    },
+    {
+      "Nazwa_dania": "Krem z cebuli",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 17.0
+    },
+    {
+      "Nazwa_dania": "Krem z cebuli",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Chleb żytni razowy",
+      "Gramatura_na_1_porcję": 45.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 17.0
+    },
+    {
+      "Nazwa_dania": "Krem z cebuli",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 17.0
+    },
+    {
+      "Nazwa_dania": "Krem z cebuli",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ser Grana Padano",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 17.0
+    },
+    {
+      "Nazwa_dania": "Krem z cebuli",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bulion warzywny lub drobiowy",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 17.0
+    },
+    {
+      "Nazwa_dania": "Krem z cebuli",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 17.0
+    },
+    {
+      "Nazwa_dania": "Krem z cebuli",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 17.0
+    },
+    {
+      "Nazwa_dania": "Krem z cebuli",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Sok z cytryny",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 17.0
+    },
+    {
+      "Nazwa_dania": "Leczo z kiełbasą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Kiełbasa z piersi kurczaka / indyka (chuda)",
+      "Gramatura_na_1_porcję": 90.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 18.0
+    },
+    {
+      "Nazwa_dania": "Leczo z kiełbasą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Chleb żytni razowy",
+      "Gramatura_na_1_porcję": 55.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 18.0
+    },
+    {
+      "Nazwa_dania": "Leczo z kiełbasą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Papryka czerwona",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 18.0
+    },
+    {
+      "Nazwa_dania": "Leczo z kiełbasą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Papryka żółta",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 18.0
+    },
+    {
+      "Nazwa_dania": "Leczo z kiełbasą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Passata pomidorowa",
+      "Gramatura_na_1_porcję": 180.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 18.0
+    },
+    {
+      "Nazwa_dania": "Leczo z kiełbasą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 18.0
+    },
+    {
+      "Nazwa_dania": "Leczo z kiełbasą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 18.0
+    },
+    {
+      "Nazwa_dania": "Leczo z kiełbasą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 18.0
+    },
+    {
+      "Nazwa_dania": "Risotto z kurczakiem i pieczarkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ryż do risotta (Arborio / Carnaroli, dry)",
+      "Gramatura_na_1_porcję": 45.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 19.0
+    },
+    {
+      "Nazwa_dania": "Risotto z kurczakiem i pieczarkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 19.0
+    },
+    {
+      "Nazwa_dania": "Risotto z kurczakiem i pieczarkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pieczarki",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 19.0
+    },
+    {
+      "Nazwa_dania": "Risotto z kurczakiem i pieczarkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Groszek zielony (mrożony)",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 19.0
+    },
+    {
+      "Nazwa_dania": "Risotto z kurczakiem i pieczarkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ser Grana Padano lub Parmezan",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 19.0
+    },
+    {
+      "Nazwa_dania": "Risotto z kurczakiem i pieczarkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 19.0
+    },
+    {
+      "Nazwa_dania": "Risotto z kurczakiem i pieczarkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 19.0
+    },
+    {
+      "Nazwa_dania": "Risotto z kurczakiem i pieczarkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 19.0
+    },
+    {
+      "Nazwa_dania": "Risotto z kurczakiem i pieczarkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bulion warzywny lub drobiowy (gorący)",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 19.0
+    },
+    {
+      "Nazwa_dania": "Strogonow z polędwiczką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Polędwiczkа wieprzowa",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 20.0
+    },
+    {
+      "Nazwa_dania": "Strogonow z polędwiczką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Kasza gryczana (dry)",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 20.0
+    },
+    {
+      "Nazwa_dania": "Strogonow z polędwiczką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Pieczarki",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 20.0
+    },
+    {
+      "Nazwa_dania": "Strogonow z polędwiczką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ogórek kiszony",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 20.0
+    },
+    {
+      "Nazwa_dania": "Strogonow z polędwiczką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Passata pomidorowa / przecier",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 20.0
+    },
+    {
+      "Nazwa_dania": "Strogonow z polędwiczką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Śmietanka 12%",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 20.0
+    },
+    {
+      "Nazwa_dania": "Strogonow z polędwiczką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 20.0
+    },
+    {
+      "Nazwa_dania": "Strogonow z polędwiczką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 20.0
+    },
+    {
+      "Nazwa_dania": "Strogonow z polędwiczką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Musztarda (np. delikatesowa)",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 20.0
+    },
+    {
+      "Nazwa_dania": "Szare kluski ze skwarkami i twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ziemniaki (surowe)",
+      "Gramatura_na_1_porcję": 180.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 21.0
+    },
+    {
+      "Nazwa_dania": "Szare kluski ze skwarkami i twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Twaróg chudy",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 21.0
+    },
+    {
+      "Nazwa_dania": "Szare kluski ze skwarkami i twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Boczek wędzony surowy/parzony",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 21.0
+    },
+    {
+      "Nazwa_dania": "Szare kluski ze skwarkami i twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Mąka pszenna",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 21.0
+    },
+    {
+      "Nazwa_dania": "Szare kluski ze skwarkami i twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Białko jaja",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 21.0
+    },
+    {
+      "Nazwa_dania": "Szare kluski ze skwarkami i twarogiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 21.0
+    },
+    {
+      "Nazwa_dania": "Zapiekanka makaronowa z szynką",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Makaron (np. świderki/penne, dry)",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 22.0
+    },
+    {
+      "Nazwa_dania": "Zapiekanka makaronowa z szynką",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Szynka z piersi indyka / chuda szynka",
+      "Gramatura_na_1_porcję": 70.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 22.0
+    },
+    {
+      "Nazwa_dania": "Zapiekanka makaronowa z szynką",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ser Mozzarella (tarta) lub Gouda",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 22.0
+    },
+    {
+      "Nazwa_dania": "Zapiekanka makaronowa z szynką",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Śmietanka 12%",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 22.0
+    },
+    {
+      "Nazwa_dania": "Zapiekanka makaronowa z szynką",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pomidorki koktajlowe",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 22.0
+    },
+    {
+      "Nazwa_dania": "Zapiekanka makaronowa z szynką",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 22.0
+    },
+    {
+      "Nazwa_dania": "Zapiekanka makaronowa z szynką",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 22.0
+    },
+    {
+      "Nazwa_dania": "Zapiekanka makaronowa z szynką",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 22.0
+    },
+    {
+      "Nazwa_dania": "Pappardelle z kurczakiem i grzybami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Makaron Pappardelle (dry)",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 23.0
+    },
+    {
+      "Nazwa_dania": "Pappardelle z kurczakiem i grzybami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 23.0
+    },
+    {
+      "Nazwa_dania": "Pappardelle z kurczakiem i grzybami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Podgrzybki (świeże lub mrożone)",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 23.0
+    },
+    {
+      "Nazwa_dania": "Pappardelle z kurczakiem i grzybami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Śmietanka 12%",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 23.0
+    },
+    {
+      "Nazwa_dania": "Pappardelle z kurczakiem i grzybami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 23.0
+    },
+    {
+      "Nazwa_dania": "Pappardelle z kurczakiem i grzybami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 23.0
+    },
+    {
+      "Nazwa_dania": "Pappardelle z kurczakiem i grzybami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 23.0
+    },
+    {
+      "Nazwa_dania": "Pappardelle z kurczakiem i grzybami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Woda z gotowania makaronu",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 23.0
+    },
+    {
+      "Nazwa_dania": "Pappardelle z kurczakiem i grzybami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Natka pietruszki",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 23.0
+    },
+    {
+      "Nazwa_dania": "Kotlety mielone z buraczkami i puree",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Mięso mielone z piersi indyka",
+      "Gramatura_na_1_porcję": 90.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 24.0
+    },
+    {
+      "Nazwa_dania": "Kotlety mielone z buraczkami i puree",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 140.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 24.0
+    },
+    {
+      "Nazwa_dania": "Kotlety mielone z buraczkami i puree",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Buraczkowe zasmażane Freshona (Lidl)",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 24.0
+    },
+    {
+      "Nazwa_dania": "Kotlety mielone z buraczkami i puree",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 24.0
+    },
+    {
+      "Nazwa_dania": "Kotlety mielone z buraczkami i puree",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bułka tarta",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 24.0
+    },
+    {
+      "Nazwa_dania": "Kotlety mielone z buraczkami i puree",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 24.0
+    },
+    {
+      "Nazwa_dania": "Kotlety mielone z buraczkami i puree",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 24.0
+    },
+    {
+      "Nazwa_dania": "Kotlety mielone z buraczkami i puree",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 24.0
+    },
+    {
+      "Nazwa_dania": "Kotlety mielone z buraczkami i puree",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 24.0
+    },
+    {
+      "Nazwa_dania": "Zupa musztardowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 25.0
+    },
+    {
+      "Nazwa_dania": "Zupa musztardowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Białko jajka",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 25.0
+    },
+    {
+      "Nazwa_dania": "Zupa musztardowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 140.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 25.0
+    },
+    {
+      "Nazwa_dania": "Zupa musztardowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Musztarda delikatesowa",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 25.0
+    },
+    {
+      "Nazwa_dania": "Zupa musztardowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Musztarda francuska",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 25.0
+    },
+    {
+      "Nazwa_dania": "Zupa musztardowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 25.0
+    },
+    {
+      "Nazwa_dania": "Zupa musztardowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Marchew",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 25.0
+    },
+    {
+      "Nazwa_dania": "Zupa musztardowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bulion warzywny",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 25.0
+    },
+    {
+      "Nazwa_dania": "Zupa musztardowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 25.0
+    },
+    {
+      "Nazwa_dania": "Zupa musztardowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 25.0
+    },
+    {
+      "Nazwa_dania": "Zupa musztardowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 25.0
+    },
+    {
+      "Nazwa_dania": "Placki ziemniaczane z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 180.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 26.0
+    },
+    {
+      "Nazwa_dania": "Placki ziemniaczane z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 26.0
+    },
+    {
+      "Nazwa_dania": "Placki ziemniaczane z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Mąka pszenna",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 26.0
+    },
+    {
+      "Nazwa_dania": "Placki ziemniaczane z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Łosoś wędzony na zimno",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 26.0
+    },
+    {
+      "Nazwa_dania": "Placki ziemniaczane z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 26.0
+    },
+    {
+      "Nazwa_dania": "Placki ziemniaczane z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 26.0
+    },
+    {
+      "Nazwa_dania": "Placki ziemniaczane z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 26.0
+    },
+    {
+      "Nazwa_dania": "Placki ziemniaczane z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 26.0
+    },
+    {
+      "Nazwa_dania": "Zupa ogórkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ogórki kiszone",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 27.0
+    },
+    {
+      "Nazwa_dania": "Zupa ogórkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 90.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 27.0
+    },
+    {
+      "Nazwa_dania": "Zupa ogórkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 27.0
+    },
+    {
+      "Nazwa_dania": "Zupa ogórkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Marchew",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 27.0
+    },
+    {
+      "Nazwa_dania": "Zupa ogórkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 27.0
+    },
+    {
+      "Nazwa_dania": "Zupa ogórkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Bulion warzywny",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 27.0
+    },
+    {
+      "Nazwa_dania": "Zupa ogórkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 27.0
+    },
+    {
+      "Nazwa_dania": "Zupa ogórkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 27.0
+    },
+    {
+      "Nazwa_dania": "Zupa ogórkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 27.0
+    },
+    {
+      "Nazwa_dania": "Zupa ogórkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Sok z ogórków kiszonych",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 27.0
+    },
+    {
+      "Nazwa_dania": "Botwinka",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Botwinka (młode buraczki z boćwiną)",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 28.0
+    },
+    {
+      "Nazwa_dania": "Botwinka",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 90.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 28.0
+    },
+    {
+      "Nazwa_dania": "Botwinka",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 28.0
+    },
+    {
+      "Nazwa_dania": "Botwinka",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Marchew",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 28.0
+    },
+    {
+      "Nazwa_dania": "Botwinka",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 28.0
+    },
+    {
+      "Nazwa_dania": "Botwinka",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bulion warzywny",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 28.0
+    },
+    {
+      "Nazwa_dania": "Botwinka",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 28.0
+    },
+    {
+      "Nazwa_dania": "Botwinka",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 28.0
+    },
+    {
+      "Nazwa_dania": "Botwinka",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 28.0
+    },
+    {
+      "Nazwa_dania": "Botwinka",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Sok z cytryny",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 28.0
+    },
+    {
+      "Nazwa_dania": "Krem z kalafiora",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Kalafior",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 29.0
+    },
+    {
+      "Nazwa_dania": "Krem z kalafiora",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 90.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 29.0
+    },
+    {
+      "Nazwa_dania": "Krem z kalafiora",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 29.0
+    },
+    {
+      "Nazwa_dania": "Krem z kalafiora",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Marchew",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 29.0
+    },
+    {
+      "Nazwa_dania": "Krem z kalafiora",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 29.0
+    },
+    {
+      "Nazwa_dania": "Krem z kalafiora",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bulion warzywny",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 29.0
+    },
+    {
+      "Nazwa_dania": "Krem z kalafiora",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 29.0
+    },
+    {
+      "Nazwa_dania": "Krem z kalafiora",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 29.0
+    },
+    {
+      "Nazwa_dania": "Krem z kalafiora",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 29.0
+    },
+    {
+      "Nazwa_dania": "Zupa buraczkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Buraki gotowane",
+      "Gramatura_na_1_porcję": 180.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 30.0
+    },
+    {
+      "Nazwa_dania": "Zupa buraczkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 90.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 30.0
+    },
+    {
+      "Nazwa_dania": "Zupa buraczkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 130.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 30.0
+    },
+    {
+      "Nazwa_dania": "Zupa buraczkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Marchew",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 30.0
+    },
+    {
+      "Nazwa_dania": "Zupa buraczkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 30.0
+    },
+    {
+      "Nazwa_dania": "Zupa buraczkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Bulion warzywny",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 30.0
+    },
+    {
+      "Nazwa_dania": "Zupa buraczkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 30.0
+    },
+    {
+      "Nazwa_dania": "Zupa buraczkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 30.0
+    },
+    {
+      "Nazwa_dania": "Zupa buraczkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 30.0
+    },
+    {
+      "Nazwa_dania": "Zupa buraczkowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Sok z cytryny",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 30.0
+    },
+    {
+      "Nazwa_dania": "Zupa czosnkowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 31.0
+    },
+    {
+      "Nazwa_dania": "Zupa czosnkowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 31.0
+    },
+    {
+      "Nazwa_dania": "Zupa czosnkowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 31.0
+    },
+    {
+      "Nazwa_dania": "Zupa czosnkowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Chleb żytni razowy",
+      "Gramatura_na_1_porcję": 45.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 31.0
+    },
+    {
+      "Nazwa_dania": "Zupa czosnkowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 31.0
+    },
+    {
+      "Nazwa_dania": "Zupa czosnkowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ser Grana Padano",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 31.0
+    },
+    {
+      "Nazwa_dania": "Zupa czosnkowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bulion warzywny",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 31.0
+    },
+    {
+      "Nazwa_dania": "Zupa czosnkowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 31.0
+    },
+    {
+      "Nazwa_dania": "Zupa czosnkowa",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Sok z cytryny",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 31.0
+    },
+    {
+      "Nazwa_dania": "Grochówka",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Groch łuskany (połówki, dry)",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 32.0
+    },
+    {
+      "Nazwa_dania": "Grochówka",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 32.0
+    },
+    {
+      "Nazwa_dania": "Grochówka",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Wędzona pierś z kurczaka",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 32.0
+    },
+    {
+      "Nazwa_dania": "Grochówka",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Boczek wędzony surowy/parzony",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 32.0
+    },
+    {
+      "Nazwa_dania": "Grochówka",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Marchew",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 32.0
+    },
+    {
+      "Nazwa_dania": "Grochówka",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Bulion warzywny",
+      "Gramatura_na_1_porcję": 300.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 32.0
+    },
+    {
+      "Nazwa_dania": "Grochówka",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 32.0
+    },
+    {
+      "Nazwa_dania": "Grochówka",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 32.0
+    },
+    {
+      "Nazwa_dania": "Zupa jarzynowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 90.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 33.0
+    },
+    {
+      "Nazwa_dania": "Zupa jarzynowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 130.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 33.0
+    },
+    {
+      "Nazwa_dania": "Zupa jarzynowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Marchew",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 33.0
+    },
+    {
+      "Nazwa_dania": "Zupa jarzynowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Kalafior",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 33.0
+    },
+    {
+      "Nazwa_dania": "Zupa jarzynowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Groszek zielony (mrożony)",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 33.0
+    },
+    {
+      "Nazwa_dania": "Zupa jarzynowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 33.0
+    },
+    {
+      "Nazwa_dania": "Zupa jarzynowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Bulion warzywny",
+      "Gramatura_na_1_porcję": 250.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 33.0
+    },
+    {
+      "Nazwa_dania": "Zupa jarzynowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 33.0
+    },
+    {
+      "Nazwa_dania": "Zupa jarzynowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 33.0
+    },
+    {
+      "Nazwa_dania": "Zupa jarzynowa",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 33.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z pieczoną dynią, halloumi i kurczakiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 34.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z pieczoną dynią, halloumi i kurczakiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Dynia",
+      "Gramatura_na_1_porcję": 130.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 34.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z pieczoną dynią, halloumi i kurczakiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Burak gotowany",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 34.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z pieczoną dynią, halloumi i kurczakiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ser halloumi",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 34.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z pieczoną dynią, halloumi i kurczakiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Roszponka lub miks sałat",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 34.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z pieczoną dynią, halloumi i kurczakiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 34.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z pieczoną dynią, halloumi i kurczakiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Miód",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 34.0
+    },
+    {
+      "Nazwa_dania": "Crumble ze śliwkami i białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Śliwki",
+      "Gramatura_na_1_porcję": 160.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 35.0
+    },
+    {
+      "Nazwa_dania": "Crumble ze śliwkami i białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 35.0
+    },
+    {
+      "Nazwa_dania": "Crumble ze śliwkami i białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Płatki owsiane",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 35.0
+    },
+    {
+      "Nazwa_dania": "Crumble ze śliwkami i białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Masło",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 35.0
+    },
+    {
+      "Nazwa_dania": "Crumble ze śliwkami i białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Mąka owsiana",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 35.0
+    },
+    {
+      "Nazwa_dania": "Crumble ze śliwkami i białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Odżywka białkowa",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 35.0
+    },
+    {
+      "Nazwa_dania": "Owoce pod białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Truskawki",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 36.0
+    },
+    {
+      "Nazwa_dania": "Owoce pod białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Jabłko",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 36.0
+    },
+    {
+      "Nazwa_dania": "Owoce pod białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 36.0
+    },
+    {
+      "Nazwa_dania": "Owoce pod białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Płatki owsiane",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 36.0
+    },
+    {
+      "Nazwa_dania": "Owoce pod białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Masło",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 36.0
+    },
+    {
+      "Nazwa_dania": "Owoce pod białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Mąka owsiana",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 36.0
+    },
+    {
+      "Nazwa_dania": "Owoce pod białkową kruszonką",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Odżywka białkowa",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 36.0
+    },
+    {
+      "Nazwa_dania": "Zapiekana gruszka pod białkową kruszonką z gorzką czekoladą",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Gruszka",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 37.0
+    },
+    {
+      "Nazwa_dania": "Zapiekana gruszka pod białkową kruszonką z gorzką czekoladą",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 37.0
+    },
+    {
+      "Nazwa_dania": "Zapiekana gruszka pod białkową kruszonką z gorzką czekoladą",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Płatki owsiane",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 37.0
+    },
+    {
+      "Nazwa_dania": "Zapiekana gruszka pod białkową kruszonką z gorzką czekoladą",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Masło",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 37.0
+    },
+    {
+      "Nazwa_dania": "Zapiekana gruszka pod białkową kruszonką z gorzką czekoladą",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Czekolada gorzka",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 37.0
+    },
+    {
+      "Nazwa_dania": "Zapiekana gruszka pod białkową kruszonką z gorzką czekoladą",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Mąka migdałowa",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 37.0
+    },
+    {
+      "Nazwa_dania": "Zapiekana gruszka pod białkową kruszonką z gorzką czekoladą",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Odżywka białkowa",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 37.0
+    },
+    {
+      "Nazwa_dania": "Blok czekoladowy ze skyrówką i herbatnikami",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 38.0
+    },
+    {
+      "Nazwa_dania": "Blok czekoladowy ze skyrówką i herbatnikami",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Herbatniki maślane",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 38.0
+    },
+    {
+      "Nazwa_dania": "Blok czekoladowy ze skyrówką i herbatnikami",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Mleko w proszku odtłuszczone",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 38.0
+    },
+    {
+      "Nazwa_dania": "Blok czekoladowy ze skyrówką i herbatnikami",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Czekolada gorzka",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 38.0
+    },
+    {
+      "Nazwa_dania": "Blok czekoladowy ze skyrówką i herbatnikami",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Masło",
+      "Gramatura_na_1_porcję": 12.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 38.0
+    },
+    {
+      "Nazwa_dania": "Blok czekoladowy ze skyrówką i herbatnikami",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Kakao ciemne",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 38.0
+    },
+    {
+      "Nazwa_dania": "Blok czekoladowy ze skyrówką i herbatnikami",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Mleko 1.5%",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 38.0
+    },
+    {
+      "Nazwa_dania": "Blok czekoladowy ze skyrówką i herbatnikami",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Żelatyna",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 38.0
+    },
+    {
+      "Nazwa_dania": "Fishburgery z frytkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Dorsz",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 39.0
+    },
+    {
+      "Nazwa_dania": "Fishburgery z frytkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bułka do burgera",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 39.0
+    },
+    {
+      "Nazwa_dania": "Fishburgery z frytkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 39.0
+    },
+    {
+      "Nazwa_dania": "Fishburgery z frytkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 39.0
+    },
+    {
+      "Nazwa_dania": "Fishburgery z frytkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 39.0
+    },
+    {
+      "Nazwa_dania": "Fishburgery z frytkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Majonez",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 39.0
+    },
+    {
+      "Nazwa_dania": "Fishburgery z frytkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 39.0
+    },
+    {
+      "Nazwa_dania": "Fishburgery z frytkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ogórek kiszony",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 39.0
+    },
+    {
+      "Nazwa_dania": "Fishburgery z frytkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula czerwona",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 39.0
+    },
+    {
+      "Nazwa_dania": "Fishburgery z frytkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Sałata",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 39.0
+    },
+    {
+      "Nazwa_dania": "Medaliony warzywne Ikea",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Brokuł",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 40.0
+    },
+    {
+      "Nazwa_dania": "Medaliony warzywne Ikea",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 200.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 40.0
+    },
+    {
+      "Nazwa_dania": "Medaliony warzywne Ikea",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Por",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 40.0
+    },
+    {
+      "Nazwa_dania": "Medaliony warzywne Ikea",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 40.0
+    },
+    {
+      "Nazwa_dania": "Medaliony warzywne Ikea",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 40.0
+    },
+    {
+      "Nazwa_dania": "Medaliony warzywne Ikea",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ser żółty light",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 40.0
+    },
+    {
+      "Nazwa_dania": "Medaliony warzywne Ikea",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 40.0
+    },
+    {
+      "Nazwa_dania": "Medaliony warzywne Ikea",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Mąka ziemniaczana",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 40.0
+    },
+    {
+      "Nazwa_dania": "Medaliony warzywne Ikea",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 40.0
+    },
+    {
+      "Nazwa_dania": "Chłopski garnek z ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 180.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 41.0
+    },
+    {
+      "Nazwa_dania": "Chłopski garnek z ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Kiełbasa drobiowa",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 41.0
+    },
+    {
+      "Nazwa_dania": "Chłopski garnek z ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Czerwona fasola konserwowa",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 41.0
+    },
+    {
+      "Nazwa_dania": "Chłopski garnek z ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Papryka czerwona",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 41.0
+    },
+    {
+      "Nazwa_dania": "Chłopski garnek z ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Passata pomidorowa",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 41.0
+    },
+    {
+      "Nazwa_dania": "Chłopski garnek z ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 41.0
+    },
+    {
+      "Nazwa_dania": "Chłopski garnek z ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 41.0
+    },
+    {
+      "Nazwa_dania": "Chłopski garnek z ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Bulion warzywny",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 41.0
+    },
+    {
+      "Nazwa_dania": "Filet z indyka w sosie po luizjańsku z ryżem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Filet z piersi indyka",
+      "Gramatura_na_1_porcję": 90.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 42.0
+    },
+    {
+      "Nazwa_dania": "Filet z indyka w sosie po luizjańsku z ryżem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ryż basmati",
+      "Gramatura_na_1_porcję": 45.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 42.0
+    },
+    {
+      "Nazwa_dania": "Filet z indyka w sosie po luizjańsku z ryżem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 42.0
+    },
+    {
+      "Nazwa_dania": "Filet z indyka w sosie po luizjańsku z ryżem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Przecier pomidorowy",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 42.0
+    },
+    {
+      "Nazwa_dania": "Filet z indyka w sosie po luizjańsku z ryżem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 42.0
+    },
+    {
+      "Nazwa_dania": "Filet z indyka w sosie po luizjańsku z ryżem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 42.0
+    },
+    {
+      "Nazwa_dania": "Filet z indyka w sosie po luizjańsku z ryżem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Papryka czerwona",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 42.0
+    },
+    {
+      "Nazwa_dania": "Leczo z dynią i kiełbasą drobiową",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Dynia hokkaido",
+      "Gramatura_na_1_porcję": 200.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 43.0
+    },
+    {
+      "Nazwa_dania": "Leczo z dynią i kiełbasą drobiową",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Papryka czerwona",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 43.0
+    },
+    {
+      "Nazwa_dania": "Leczo z dynią i kiełbasą drobiową",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Pomidory krojone z puszki",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 43.0
+    },
+    {
+      "Nazwa_dania": "Leczo z dynią i kiełbasą drobiową",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Kiełbasa drobiowa",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 43.0
+    },
+    {
+      "Nazwa_dania": "Leczo z dynią i kiełbasą drobiową",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 43.0
+    },
+    {
+      "Nazwa_dania": "Leczo z dynią i kiełbasą drobiową",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Chleb żytni razowy",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 43.0
+    },
+    {
+      "Nazwa_dania": "Leczo z dynią i kiełbasą drobiową",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 43.0
+    },
+    {
+      "Nazwa_dania": "Tost z chlebem żytnim, masłem orzechowym i bananem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Chleb żytni",
+      "Gramatura_na_1_porcję": 65.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 44.0
+    },
+    {
+      "Nazwa_dania": "Tost z chlebem żytnim, masłem orzechowym i bananem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 44.0
+    },
+    {
+      "Nazwa_dania": "Tost z chlebem żytnim, masłem orzechowym i bananem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Banan",
+      "Gramatura_na_1_porcję": 70.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 44.0
+    },
+    {
+      "Nazwa_dania": "Tost z chlebem żytnim, masłem orzechowym i bananem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Masło orzechowe",
+      "Gramatura_na_1_porcję": 12.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 44.0
+    },
+    {
+      "Nazwa_dania": "Pstrąg z ziemniakami i sałatką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Filet z pstrąga",
+      "Gramatura_na_1_porcję": 110.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 45.0
+    },
+    {
+      "Nazwa_dania": "Pstrąg z ziemniakami i sałatką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 45.0
+    },
+    {
+      "Nazwa_dania": "Pstrąg z ziemniakami i sałatką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Jogurt naturalny",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 45.0
+    },
+    {
+      "Nazwa_dania": "Pstrąg z ziemniakami i sałatką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Pomidorki koktajlowe",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 45.0
+    },
+    {
+      "Nazwa_dania": "Pstrąg z ziemniakami i sałatką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ogórek",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 45.0
+    },
+    {
+      "Nazwa_dania": "Pstrąg z ziemniakami i sałatką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Rzodkiewka",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 45.0
+    },
+    {
+      "Nazwa_dania": "Pstrąg z ziemniakami i sałatką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Sałata rzymska",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 45.0
+    },
+    {
+      "Nazwa_dania": "Pstrąg z ziemniakami i sałatką",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Sok z cytryny",
+      "Gramatura_na_1_porcję": 6.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 45.0
+    },
+    {
+      "Nazwa_dania": "Domowa granola",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 46.0
+    },
+    {
+      "Nazwa_dania": "Domowa granola",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Banan",
+      "Gramatura_na_1_porcję": 90.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 46.0
+    },
+    {
+      "Nazwa_dania": "Domowa granola",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Płatki owsiane",
+      "Gramatura_na_1_porcję": 35.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 46.0
+    },
+    {
+      "Nazwa_dania": "Domowa granola",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Maliny",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 46.0
+    },
+    {
+      "Nazwa_dania": "Domowa granola",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Migdały płatki",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 46.0
+    },
+    {
+      "Nazwa_dania": "Domowa granola",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Olej kokosowy",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 46.0
+    },
+    {
+      "Nazwa_dania": "Kanapki z hummusem, szynką z kurczaka i warzywami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Chleb żytni",
+      "Gramatura_na_1_porcję": 65.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 47.0
+    },
+    {
+      "Nazwa_dania": "Kanapki z hummusem, szynką z kurczaka i warzywami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Szynka z kurczaka",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 47.0
+    },
+    {
+      "Nazwa_dania": "Kanapki z hummusem, szynką z kurczaka i warzywami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Hummus naturalny",
+      "Gramatura_na_1_porcję": 35.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 47.0
+    },
+    {
+      "Nazwa_dania": "Kanapki z hummusem, szynką z kurczaka i warzywami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Pomidor",
+      "Gramatura_na_1_porcję": 160.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 47.0
+    },
+    {
+      "Nazwa_dania": "Kanapki z hummusem, szynką z kurczaka i warzywami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Papryka czerwona",
+      "Gramatura_na_1_porcję": 85.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 47.0
+    },
+    {
+      "Nazwa_dania": "Kanapki z hummusem, szynką z kurczaka i warzywami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Ogórek",
+      "Gramatura_na_1_porcję": 75.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 47.0
+    },
+    {
+      "Nazwa_dania": "Kanapki z hummusem, szynką z kurczaka i warzywami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Szczypiorek",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 47.0
+    },
+    {
+      "Nazwa_dania": "Placuszki owsiane z czekoladą i borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Mąka owsiana",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 48.0
+    },
+    {
+      "Nazwa_dania": "Placuszki owsiane z czekoladą i borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Banan",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 48.0
+    },
+    {
+      "Nazwa_dania": "Placuszki owsiane z czekoladą i borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 48.0
+    },
+    {
+      "Nazwa_dania": "Placuszki owsiane z czekoladą i borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Borówki amerykańskie",
+      "Gramatura_na_1_porcję": 35.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 48.0
+    },
+    {
+      "Nazwa_dania": "Placuszki owsiane z czekoladą i borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Odżywka białkowa",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 48.0
+    },
+    {
+      "Nazwa_dania": "Placuszki owsiane z czekoladą i borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Czekolada gorzka",
+      "Gramatura_na_1_porcję": 7.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 48.0
+    },
+    {
+      "Nazwa_dania": "Placuszki owsiane z czekoladą i borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Masło orzechowe",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 48.0
+    },
+    {
+      "Nazwa_dania": "Tosty z pesto, mozzarellą i pomidorem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Chleb żytni",
+      "Gramatura_na_1_porcję": 70.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 49.0
+    },
+    {
+      "Nazwa_dania": "Tosty z pesto, mozzarellą i pomidorem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Mozzarella",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 49.0
+    },
+    {
+      "Nazwa_dania": "Tosty z pesto, mozzarellą i pomidorem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Pomidor",
+      "Gramatura_na_1_porcję": 160.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 49.0
+    },
+    {
+      "Nazwa_dania": "Tosty z pesto, mozzarellą i pomidorem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Szpinak świeży",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 49.0
+    },
+    {
+      "Nazwa_dania": "Tosty z pesto, mozzarellą i pomidorem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Pesto zielone",
+      "Gramatura_na_1_porcję": 8.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 49.0
+    },
+    {
+      "Nazwa_dania": "Gulasz warzywny z batatami, fasolą i ciecierzycą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bataty",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 50.0
+    },
+    {
+      "Nazwa_dania": "Gulasz warzywny z batatami, fasolą i ciecierzycą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ciecierzyca konserwowa",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 50.0
+    },
+    {
+      "Nazwa_dania": "Gulasz warzywny z batatami, fasolą i ciecierzycą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czerwona fasola konserwowa",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 50.0
+    },
+    {
+      "Nazwa_dania": "Gulasz warzywny z batatami, fasolą i ciecierzycą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pomidory krojone z puszki",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 50.0
+    },
+    {
+      "Nazwa_dania": "Gulasz warzywny z batatami, fasolą i ciecierzycą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 50.0
+    },
+    {
+      "Nazwa_dania": "Gulasz warzywny z batatami, fasolą i ciecierzycą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 50.0
+    },
+    {
+      "Nazwa_dania": "Gulasz warzywny z batatami, fasolą i ciecierzycą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 50.0
+    },
+    {
+      "Nazwa_dania": "Gulasz warzywny z batatami, fasolą i ciecierzycą",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Marchew",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 50.0
+    },
+    {
+      "Nazwa_dania": "Power bowl z batatami, awokado i jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bataty",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 51.0
+    },
+    {
+      "Nazwa_dania": "Power bowl z batatami, awokado i jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 51.0
+    },
+    {
+      "Nazwa_dania": "Power bowl z batatami, awokado i jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Komosa ryżowa",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 51.0
+    },
+    {
+      "Nazwa_dania": "Power bowl z batatami, awokado i jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Awokado",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 51.0
+    },
+    {
+      "Nazwa_dania": "Power bowl z batatami, awokado i jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 51.0
+    },
+    {
+      "Nazwa_dania": "Power bowl z batatami, awokado i jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 51.0
+    },
+    {
+      "Nazwa_dania": "Power bowl z batatami, awokado i jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Szpinak świeży",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 51.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z pikantnym tuńczykiem i serem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Bajgiel",
+      "Gramatura_na_1_porcję": 70.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 52.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z pikantnym tuńczykiem i serem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Tuńczyk w sosie własnym",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 52.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z pikantnym tuńczykiem i serem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Ser żółty light",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 52.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z pikantnym tuńczykiem i serem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 52.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z pikantnym tuńczykiem i serem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Majonez",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 52.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z pikantnym tuńczykiem i serem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Sos sriracha",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 52.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z pikantnym tuńczykiem i serem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Czerwona cebula",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 52.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z pikantnym tuńczykiem i serem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Rukola",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 52.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z boczkiem, serem i jajkiem sadzonym",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Bajgiel",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 53.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z boczkiem, serem i jajkiem sadzonym",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 53.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z boczkiem, serem i jajkiem sadzonym",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Boczek wędzony",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 53.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z boczkiem, serem i jajkiem sadzonym",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Ser żółty light",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 53.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z boczkiem, serem i jajkiem sadzonym",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 53.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z boczkiem, serem i jajkiem sadzonym",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Majonez",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 53.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z boczkiem, serem i jajkiem sadzonym",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Musztarda",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 53.0
+    },
+    {
+      "Nazwa_dania": "Bajgiel z boczkiem, serem i jajkiem sadzonym",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Sałata / pomidor",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 53.0
+    },
+    {
+      "Nazwa_dania": "Owsianka z Inką",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 130.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 54.0
+    },
+    {
+      "Nazwa_dania": "Owsianka z Inką",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Mleko 1.5%",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 54.0
+    },
+    {
+      "Nazwa_dania": "Owsianka z Inką",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Maliny",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 54.0
+    },
+    {
+      "Nazwa_dania": "Owsianka z Inką",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Płatki owsiane",
+      "Gramatura_na_1_porcję": 35.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 54.0
+    },
+    {
+      "Nazwa_dania": "Owsianka z Inką",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Kawa zbożowa Inka",
+      "Gramatura_na_1_porcję": 8.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 54.0
+    },
+    {
+      "Nazwa_dania": "Owsianka z Inką",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Orzechy laskowe",
+      "Gramatura_na_1_porcję": 8.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 54.0
+    },
+    {
+      "Nazwa_dania": "Owsianka z Inką",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Erytrytol",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 54.0
+    },
+    {
+      "Nazwa_dania": "Gulasz drobiowy z ogórkiem kiszonym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Mięso z piersi kurczaka",
+      "Gramatura_na_1_porcję": 110.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 55.0
+    },
+    {
+      "Nazwa_dania": "Gulasz drobiowy z ogórkiem kiszonym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 140.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 55.0
+    },
+    {
+      "Nazwa_dania": "Gulasz drobiowy z ogórkiem kiszonym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ogórki kiszone",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 55.0
+    },
+    {
+      "Nazwa_dania": "Gulasz drobiowy z ogórkiem kiszonym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Papryka czerwona",
+      "Gramatura_na_1_porcję": 85.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 55.0
+    },
+    {
+      "Nazwa_dania": "Gulasz drobiowy z ogórkiem kiszonym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Pieczarki",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 55.0
+    },
+    {
+      "Nazwa_dania": "Gulasz drobiowy z ogórkiem kiszonym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Jogurt naturalny",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 55.0
+    },
+    {
+      "Nazwa_dania": "Gulasz drobiowy z ogórkiem kiszonym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula czerwona",
+      "Gramatura_na_1_porcję": 55.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 55.0
+    },
+    {
+      "Nazwa_dania": "Gulasz drobiowy z ogórkiem kiszonym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 55.0
+    },
+    {
+      "Nazwa_dania": "Gulasz drobiowy z ogórkiem kiszonym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Świeża natka pietruszki",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 55.0
+    },
+    {
+      "Nazwa_dania": "Owsianka bounty",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Płatki owsiane",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 56.0
+    },
+    {
+      "Nazwa_dania": "Owsianka bounty",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Mleko roślinne niesłodzone",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 56.0
+    },
+    {
+      "Nazwa_dania": "Owsianka bounty",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Jogurt roślinny",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 56.0
+    },
+    {
+      "Nazwa_dania": "Owsianka bounty",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Odżywka białkowa",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 56.0
+    },
+    {
+      "Nazwa_dania": "Owsianka bounty",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Erytrytol",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 56.0
+    },
+    {
+      "Nazwa_dania": "Owsianka bounty",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Wiórki kokosowe",
+      "Gramatura_na_1_porcję": 6.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 56.0
+    },
+    {
+      "Nazwa_dania": "Owsianka bounty",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Czekolada gorzka",
+      "Gramatura_na_1_porcję": 6.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 56.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie porowo-śmietanowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Polędwiczkа wieprzowa",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 57.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie porowo-śmietanowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 57.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie porowo-śmietanowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Por",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 57.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie porowo-śmietanowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ogórek",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 57.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie porowo-śmietanowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Mleczko kokosowe 12%",
+      "Gramatura_na_1_porcję": 35.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 57.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie porowo-śmietanowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Musztarda dijon",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 57.0
+    },
+    {
+      "Nazwa_dania": "Polędwiczki w sosie porowo-śmietanowym",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 57.0
+    },
+    {
+      "Nazwa_dania": "Fasola tikka masala z tofu",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Kalafior",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 58.0
+    },
+    {
+      "Nazwa_dania": "Fasola tikka masala z tofu",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Fasola czerwona konserwowa",
+      "Gramatura_na_1_porcję": 70.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 58.0
+    },
+    {
+      "Nazwa_dania": "Fasola tikka masala z tofu",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Tofu wędzone",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 58.0
+    },
+    {
+      "Nazwa_dania": "Fasola tikka masala z tofu",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Mleczko kokosowe light",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 58.0
+    },
+    {
+      "Nazwa_dania": "Fasola tikka masala z tofu",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 58.0
+    },
+    {
+      "Nazwa_dania": "Fasola tikka masala z tofu",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ryż basmati (surowy)",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 58.0
+    },
+    {
+      "Nazwa_dania": "Fasola tikka masala z tofu",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Olej rzepakowy",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 58.0
+    },
+    {
+      "Nazwa_dania": "Fasola tikka masala z tofu",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Świeża kolendra",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 58.0
+    },
+    {
+      "Nazwa_dania": "Sałatka nicejska",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 59.0
+    },
+    {
+      "Nazwa_dania": "Sałatka nicejska",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Pomidorki koktajlowe",
+      "Gramatura_na_1_porcję": 200.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 59.0
+    },
+    {
+      "Nazwa_dania": "Sałatka nicejska",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Fasolka szparagowa",
+      "Gramatura_na_1_porcję": 90.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 59.0
+    },
+    {
+      "Nazwa_dania": "Sałatka nicejska",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Czerwona cebula",
+      "Gramatura_na_1_porcję": 55.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 59.0
+    },
+    {
+      "Nazwa_dania": "Sałatka nicejska",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 59.0
+    },
+    {
+      "Nazwa_dania": "Sałatka nicejska",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Miks sałat",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 59.0
+    },
+    {
+      "Nazwa_dania": "Sałatka nicejska",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwki",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 59.0
+    },
+    {
+      "Nazwa_dania": "Sałatka nicejska",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 59.0
+    },
+    {
+      "Nazwa_dania": "Sałatka nicejska",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Musztarda",
+      "Gramatura_na_1_porcję": 8.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 59.0
+    },
+    {
+      "Nazwa_dania": "Curry z kalafiora z indykiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Pierś z indyka",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 60.0
+    },
+    {
+      "Nazwa_dania": "Curry z kalafiora z indykiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Kalafior",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 60.0
+    },
+    {
+      "Nazwa_dania": "Curry z kalafiora z indykiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ryż basmati",
+      "Gramatura_na_1_porcję": 55.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 60.0
+    },
+    {
+      "Nazwa_dania": "Curry z kalafiora z indykiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 60.0
+    },
+    {
+      "Nazwa_dania": "Curry z kalafiora z indykiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Pomidory krojone z puszki",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 60.0
+    },
+    {
+      "Nazwa_dania": "Curry z kalafiora z indykiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 60.0
+    },
+    {
+      "Nazwa_dania": "Curry z kalafiora z indykiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 60.0
+    },
+    {
+      "Nazwa_dania": "Curry z kalafiora z indykiem",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 60.0
+    },
+    {
+      "Nazwa_dania": "Gofry z serka wiejskiego ze świeżymi owocami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Serek wiejski lekki",
+      "Gramatura_na_1_porcję": 125.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 61.0
+    },
+    {
+      "Nazwa_dania": "Gofry z serka wiejskiego ze świeżymi owocami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Jajka",
+      "Gramatura_na_1_porcję": 1.0,
+      "Jednostka": "sztuka",
+      "Plik": "Bilanser",
+      "Strona": 61.0
+    },
+    {
+      "Nazwa_dania": "Gofry z serka wiejskiego ze świeżymi owocami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Mąka pszenna",
+      "Gramatura_na_1_porcję": 35.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 61.0
+    },
+    {
+      "Nazwa_dania": "Gofry z serka wiejskiego ze świeżymi owocami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Owoce jagodowe (borówki/maliny)",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 61.0
+    },
+    {
+      "Nazwa_dania": "Gofry z serka wiejskiego ze świeżymi owocami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Dżem niskosłodzony",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 61.0
+    },
+    {
+      "Nazwa_dania": "Gofry z serka wiejskiego ze świeżymi owocami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 61.0
+    },
+    {
+      "Nazwa_dania": "Gofry z serka wiejskiego ze świeżymi owocami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Proszek do pieczenia",
+      "Gramatura_na_1_porcję": 2.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 61.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z bułką tartą i borówkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Twaróg chudy",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 62.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z bułką tartą i borówkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Mąka pszenna",
+      "Gramatura_na_1_porcję": 35.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 62.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z bułką tartą i borówkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Jajka",
+      "Gramatura_na_1_porcję": "1/2",
+      "Jednostka": "sztuki",
+      "Plik": "Bilanser",
+      "Strona": 62.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z bułką tartą i borówkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Borówki",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 62.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z bułką tartą i borówkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bułka tarta",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 62.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z bułką tartą i borówkami",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Masło",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 62.0
+    },
+    {
+      "Nazwa_dania": "Gofry twarogowe z borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Twaróg chudy",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 63.0
+    },
+    {
+      "Nazwa_dania": "Gofry twarogowe z borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Jajka",
+      "Gramatura_na_1_porcję": 1.0,
+      "Jednostka": "sztuka",
+      "Plik": "Bilanser",
+      "Strona": 63.0
+    },
+    {
+      "Nazwa_dania": "Gofry twarogowe z borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Mąka pszenna",
+      "Gramatura_na_1_porcję": 35.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 63.0
+    },
+    {
+      "Nazwa_dania": "Gofry twarogowe z borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Mleko 1,5%",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 63.0
+    },
+    {
+      "Nazwa_dania": "Gofry twarogowe z borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Borówki",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 63.0
+    },
+    {
+      "Nazwa_dania": "Gofry twarogowe z borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Dżem niskosłodzony",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 63.0
+    },
+    {
+      "Nazwa_dania": "Gofry twarogowe z borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 63.0
+    },
+    {
+      "Nazwa_dania": "Gofry twarogowe z borówkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Proszek do pieczenia",
+      "Gramatura_na_1_porcję": 2.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 63.0
+    },
+    {
+      "Nazwa_dania": "Poke bowl z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ryż do sushi lub jaśminowy",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 64.0
+    },
+    {
+      "Nazwa_dania": "Poke bowl z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Łosoś świeży lub wędzony",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 64.0
+    },
+    {
+      "Nazwa_dania": "Poke bowl z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 64.0
+    },
+    {
+      "Nazwa_dania": "Poke bowl z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ogórek świeży",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 64.0
+    },
+    {
+      "Nazwa_dania": "Poke bowl z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Marchew",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 64.0
+    },
+    {
+      "Nazwa_dania": "Poke bowl z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Rzodkiewka",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 64.0
+    },
+    {
+      "Nazwa_dania": "Poke bowl z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Kukurydza z puszki",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 64.0
+    },
+    {
+      "Nazwa_dania": "Poke bowl z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Sos sojowy",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 64.0
+    },
+    {
+      "Nazwa_dania": "Poke bowl z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 64.0
+    },
+    {
+      "Nazwa_dania": "Poke bowl z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Sok z limonki",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 64.0
+    },
+    {
+      "Nazwa_dania": "Poke bowl z łososiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 2.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 64.0
+    },
+    {
+      "Nazwa_dania": "Placki z serka wiejskiego z truskawkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Serek wiejski lekki",
+      "Gramatura_na_1_porcję": 125.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 65.0
+    },
+    {
+      "Nazwa_dania": "Placki z serka wiejskiego z truskawkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Jajka",
+      "Gramatura_na_1_porcję": 1.0,
+      "Jednostka": "sztuka",
+      "Plik": "Bilanser",
+      "Strona": 65.0
+    },
+    {
+      "Nazwa_dania": "Placki z serka wiejskiego z truskawkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Mąka pszenna",
+      "Gramatura_na_1_porcję": 35.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 65.0
+    },
+    {
+      "Nazwa_dania": "Placki z serka wiejskiego z truskawkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Truskawki",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 65.0
+    },
+    {
+      "Nazwa_dania": "Placki z serka wiejskiego z truskawkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Dżem truskawkowy niskosłodzony",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 65.0
+    },
+    {
+      "Nazwa_dania": "Placki z serka wiejskiego z truskawkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 65.0
+    },
+    {
+      "Nazwa_dania": "Placki z serka wiejskiego z truskawkami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Proszek do pieczenia",
+      "Gramatura_na_1_porcję": 2.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 65.0
+    },
+    {
+      "Nazwa_dania": "Omlet białkowy",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Białko jajka",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 66.0
+    },
+    {
+      "Nazwa_dania": "Omlet białkowy",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 66.0
+    },
+    {
+      "Nazwa_dania": "Omlet białkowy",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Mąka pszenna",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 66.0
+    },
+    {
+      "Nazwa_dania": "Omlet białkowy",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Borówki lub maliny",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 66.0
+    },
+    {
+      "Nazwa_dania": "Omlet białkowy",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Dżem niskosłodzony",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 66.0
+    },
+    {
+      "Nazwa_dania": "Omlet białkowy",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 66.0
+    },
+    {
+      "Nazwa_dania": "Omlet białkowy",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Proszek do pieczenia",
+      "Gramatura_na_1_porcję": 2.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 66.0
+    },
+    {
+      "Nazwa_dania": "Tosty mleczne",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Chleb tostowy razowy",
+      "Gramatura_na_1_porcję": 65.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 67.0
+    },
+    {
+      "Nazwa_dania": "Tosty mleczne",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Jajka",
+      "Gramatura_na_1_porcję": 1.0,
+      "Jednostka": "sztuka",
+      "Plik": "Bilanser",
+      "Strona": 67.0
+    },
+    {
+      "Nazwa_dania": "Tosty mleczne",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 67.0
+    },
+    {
+      "Nazwa_dania": "Tosty mleczne",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Mleko 1,5%",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 67.0
+    },
+    {
+      "Nazwa_dania": "Tosty mleczne",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 67.0
+    },
+    {
+      "Nazwa_dania": "Tosty mleczne",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Owoce jagodowe (borówki/maliny)",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 67.0
+    },
+    {
+      "Nazwa_dania": "Szakszuka ze szpinakiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Chleb żytni razowy",
+      "Gramatura_na_1_porcję": 70.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 68.0
+    },
+    {
+      "Nazwa_dania": "Szakszuka ze szpinakiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Jajka",
+      "Gramatura_na_1_porcję": 2.0,
+      "Jednostka": "sztuki",
+      "Plik": "Bilanser",
+      "Strona": 68.0
+    },
+    {
+      "Nazwa_dania": "Szakszuka ze szpinakiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Pomidory krojone z puszki",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 68.0
+    },
+    {
+      "Nazwa_dania": "Szakszuka ze szpinakiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Szpinak świeży",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 68.0
+    },
+    {
+      "Nazwa_dania": "Szakszuka ze szpinakiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 68.0
+    },
+    {
+      "Nazwa_dania": "Szakszuka ze szpinakiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 68.0
+    },
+    {
+      "Nazwa_dania": "Szakszuka ze szpinakiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 68.0
+    },
+    {
+      "Nazwa_dania": "Szakszuka ze szpinakiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 68.0
+    },
+    {
+      "Nazwa_dania": "Grzanki z awokado i łososiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Chleb żytni razowy",
+      "Gramatura_na_1_porcję": 70.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 69.0
+    },
+    {
+      "Nazwa_dania": "Grzanki z awokado i łososiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Łosoś wędzony na zimno",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 69.0
+    },
+    {
+      "Nazwa_dania": "Grzanki z awokado i łososiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Jajko",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 69.0
+    },
+    {
+      "Nazwa_dania": "Grzanki z awokado i łososiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Awokado",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 69.0
+    },
+    {
+      "Nazwa_dania": "Grzanki z awokado i łososiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 69.0
+    },
+    {
+      "Nazwa_dania": "Grzanki z awokado i łososiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Sok z cytryny",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 69.0
+    },
+    {
+      "Nazwa_dania": "Grzanki z awokado i łososiem",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Czosnek",
+      "Gramatura_na_1_porcję": 2.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 69.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z twarogu i skyru z malinami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Twaróg chudy",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 70.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z twarogu i skyru z malinami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Mąka pszenna",
+      "Gramatura_na_1_porcję": 45.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 70.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z twarogu i skyru z malinami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Białko jaja kurzego",
+      "Gramatura_na_1_porcję": 35.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 70.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z twarogu i skyru z malinami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 70.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z twarogu i skyru z malinami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Maliny świeże lub mrożone",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 70.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z twarogu i skyru z malinami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Mąka ziemniaczana",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 70.0
+    },
+    {
+      "Nazwa_dania": "Kluski leniwe z twarogu i skyru z malinami",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Erytrytol / Słodzik",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 70.0
+    },
+    {
+      "Nazwa_dania": "Czekoladowy budyń jaglany",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Kasza jaglana (sucha)",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 71.0
+    },
+    {
+      "Nazwa_dania": "Czekoladowy budyń jaglany",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Mleko 1.5%",
+      "Gramatura_na_1_porcję": 150.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 71.0
+    },
+    {
+      "Nazwa_dania": "Czekoladowy budyń jaglany",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 71.0
+    },
+    {
+      "Nazwa_dania": "Czekoladowy budyń jaglany",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Kakao ciemne (100%)",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 71.0
+    },
+    {
+      "Nazwa_dania": "Czekoladowy budyń jaglany",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Czekolada gorzka (min. 70%)",
+      "Gramatura_na_1_porcję": 6.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 71.0
+    },
+    {
+      "Nazwa_dania": "Czekoladowy budyń jaglany",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Erytrytol / Słodzik",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 71.0
+    },
+    {
+      "Nazwa_dania": "Czekoladowy budyń jaglany",
+      "Typ_posiłku": "Deser",
+      "Składnik": "Maliny lub borówki",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 71.0
+    },
+    {
+      "Nazwa_dania": "Paprykarz z makrelą i chlebem żytnim",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Chleb żytni razowy",
+      "Gramatura_na_1_porcję": 70.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 72.0
+    },
+    {
+      "Nazwa_dania": "Paprykarz z makrelą i chlebem żytnim",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Makrela wędzona",
+      "Gramatura_na_1_porcję": 45.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 72.0
+    },
+    {
+      "Nazwa_dania": "Paprykarz z makrelą i chlebem żytnim",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Ryż basmati (suchy)",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 72.0
+    },
+    {
+      "Nazwa_dania": "Paprykarz z makrelą i chlebem żytnim",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Koncentrat pomidorowy",
+      "Gramatura_na_1_porcję": 25.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 72.0
+    },
+    {
+      "Nazwa_dania": "Paprykarz z makrelą i chlebem żytnim",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Marchew",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 72.0
+    },
+    {
+      "Nazwa_dania": "Paprykarz z makrelą i chlebem żytnim",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 72.0
+    },
+    {
+      "Nazwa_dania": "Paprykarz z makrelą i chlebem żytnim",
+      "Typ_posiłku": "Śniadanie",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 2.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 72.0
+    },
+    {
+      "Nazwa_dania": "Kanapka drwala z boczkiem i kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Bułka grahamka",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 73.0
+    },
+    {
+      "Nazwa_dania": "Kanapka drwala z boczkiem i kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 70.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 73.0
+    },
+    {
+      "Nazwa_dania": "Kanapka drwala z boczkiem i kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Boczek wędzony",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 73.0
+    },
+    {
+      "Nazwa_dania": "Kanapka drwala z boczkiem i kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ser żółty lekki / cheddar light",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 73.0
+    },
+    {
+      "Nazwa_dania": "Kanapka drwala z boczkiem i kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 73.0
+    },
+    {
+      "Nazwa_dania": "Kanapka drwala z boczkiem i kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Majonez",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 73.0
+    },
+    {
+      "Nazwa_dania": "Kanapka drwala z boczkiem i kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Musztarda",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 73.0
+    },
+    {
+      "Nazwa_dania": "Kanapka drwala z boczkiem i kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Sałata lodowa",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 73.0
+    },
+    {
+      "Nazwa_dania": "Kanapka drwala z boczkiem i kurczakiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ogórek konserwowy",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 73.0
+    },
+    {
+      "Nazwa_dania": "Gzik wielkopolski z pieczonymi ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 200.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 74.0
+    },
+    {
+      "Nazwa_dania": "Gzik wielkopolski z pieczonymi ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Twaróg chudy",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 74.0
+    },
+    {
+      "Nazwa_dania": "Gzik wielkopolski z pieczonymi ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 74.0
+    },
+    {
+      "Nazwa_dania": "Gzik wielkopolski z pieczonymi ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Śmietana 12%",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 74.0
+    },
+    {
+      "Nazwa_dania": "Gzik wielkopolski z pieczonymi ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 74.0
+    },
+    {
+      "Nazwa_dania": "Gzik wielkopolski z pieczonymi ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Rzodkiewka",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 74.0
+    },
+    {
+      "Nazwa_dania": "Gzik wielkopolski z pieczonymi ziemniakami",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Szczypiorek",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 74.0
+    },
+    {
+      "Nazwa_dania": "Kurczak na ryżu z ogórkami kiszonymi",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Pierś z kurczaka",
+      "Gramatura_na_1_porcję": 90.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 75.0
+    },
+    {
+      "Nazwa_dania": "Kurczak na ryżu z ogórkami kiszonymi",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ryż jaśminowy lub basmati (suchy)",
+      "Gramatura_na_1_porcję": 55.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 75.0
+    },
+    {
+      "Nazwa_dania": "Kurczak na ryżu z ogórkami kiszonymi",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ogórki kiszone",
+      "Gramatura_na_1_porcję": 120.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 75.0
+    },
+    {
+      "Nazwa_dania": "Kurczak na ryżu z ogórkami kiszonymi",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 75.0
+    },
+    {
+      "Nazwa_dania": "Kurczak na ryżu z ogórkami kiszonymi",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 75.0
+    },
+    {
+      "Nazwa_dania": "Kurczak na ryżu z ogórkami kiszonymi",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 75.0
+    },
+    {
+      "Nazwa_dania": "Kurczak na ryżu z ogórkami kiszonymi",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Marchew",
+      "Gramatura_na_1_porcję": 40.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 75.0
+    },
+    {
+      "Nazwa_dania": "Sałatka drwala",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Pierś z indyka (wędzona lub pieczona)",
+      "Gramatura_na_1_porcję": 70.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 76.0
+    },
+    {
+      "Nazwa_dania": "Sałatka drwala",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Chleb żytni razowy",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 76.0
+    },
+    {
+      "Nazwa_dania": "Sałatka drwala",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ser żółty lekki / cheddar light",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 76.0
+    },
+    {
+      "Nazwa_dania": "Sałatka drwala",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 76.0
+    },
+    {
+      "Nazwa_dania": "Sałatka drwala",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Majonez",
+      "Gramatura_na_1_porcję": 8.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 76.0
+    },
+    {
+      "Nazwa_dania": "Sałatka drwala",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Nasiona słonecznika",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 76.0
+    },
+    {
+      "Nazwa_dania": "Sałatka drwala",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ogórek konserwowy",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 76.0
+    },
+    {
+      "Nazwa_dania": "Sałatka drwala",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Mix sałat / sałata lodowa",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 76.0
+    },
+    {
+      "Nazwa_dania": "Sałatka drwala",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Musztarda",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 76.0
+    },
+    {
+      "Nazwa_dania": "Sałatka Jennifer Aniston",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Komosa ryżowa (quinoa) - sucha",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 77.0
+    },
+    {
+      "Nazwa_dania": "Sałatka Jennifer Aniston",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cieciorka z puszki (odsączona)",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 77.0
+    },
+    {
+      "Nazwa_dania": "Sałatka Jennifer Aniston",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ser feta light",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 77.0
+    },
+    {
+      "Nazwa_dania": "Sałatka Jennifer Aniston",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ogórek świeży",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 77.0
+    },
+    {
+      "Nazwa_dania": "Sałatka Jennifer Aniston",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 4.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 77.0
+    },
+    {
+      "Nazwa_dania": "Sałatka Jennifer Aniston",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Sok z cytryny",
+      "Gramatura_na_1_porcję": 10.0,
+      "Jednostka": "ml",
+      "Plik": "Bilanser",
+      "Strona": 77.0
+    },
+    {
+      "Nazwa_dania": "Sałatka Jennifer Aniston",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Czerwona cebula",
+      "Gramatura_na_1_porcję": 20.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 77.0
+    },
+    {
+      "Nazwa_dania": "Frankfurterki drobiowe w sosie chrzanowym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Frankfurterki drobiowe (np. Pikok Pure)",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 78.0
+    },
+    {
+      "Nazwa_dania": "Frankfurterki drobiowe w sosie chrzanowym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Ziemniaki",
+      "Gramatura_na_1_porcję": 180.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 78.0
+    },
+    {
+      "Nazwa_dania": "Frankfurterki drobiowe w sosie chrzanowym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Buraczki gotowane/tarte",
+      "Gramatura_na_1_porcję": 100.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 78.0
+    },
+    {
+      "Nazwa_dania": "Frankfurterki drobiowe w sosie chrzanowym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 78.0
+    },
+    {
+      "Nazwa_dania": "Frankfurterki drobiowe w sosie chrzanowym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Chrzan tarty",
+      "Gramatura_na_1_porcję": 15.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 78.0
+    },
+    {
+      "Nazwa_dania": "Frankfurterki drobiowe w sosie chrzanowym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Cebula",
+      "Gramatura_na_1_porcję": 30.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 78.0
+    },
+    {
+      "Nazwa_dania": "Frankfurterki drobiowe w sosie chrzanowym",
+      "Typ_posiłku": "Kolacja",
+      "Składnik": "Oliwa z oliwek",
+      "Gramatura_na_1_porcję": 3.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 78.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Jajka",
+      "Gramatura_na_1_porcję": 2.0,
+      "Jednostka": "sztuki",
+      "Plik": "Bilanser",
+      "Strona": 79.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Chleb żytni razowy",
+      "Gramatura_na_1_porcję": 80.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 79.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Skyr naturalny",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 79.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Majonez",
+      "Gramatura_na_1_porcję": 8.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 79.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Rzodkiewka",
+      "Gramatura_na_1_porcję": 50.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 79.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Ogórek świeży",
+      "Gramatura_na_1_porcję": 60.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 79.0
+    },
+    {
+      "Nazwa_dania": "Sałatka z jajkiem",
+      "Typ_posiłku": "Lunch",
+      "Składnik": "Musztarda",
+      "Gramatura_na_1_porcję": 5.0,
+      "Jednostka": "g",
+      "Plik": "Bilanser",
+      "Strona": 79.0
     }
   ]
 }
