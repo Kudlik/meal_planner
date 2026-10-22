@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:ui' show PointerDeviceKind;
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -9,6 +10,7 @@ import 'screens/shopping_list_screen.dart';
 import 'screens/splash_screen.dart';
 import 'screens/component_gallery.dart';
 import 'widgets/app_bottom_nav.dart';
+import 'desktop/desktop_shell.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -22,6 +24,19 @@ void main() async {
       child: const MealPlannerApp(),
     ),
   );
+}
+
+/// Same as the default Material behaviour, but also lets mouse and trackpad
+/// drag scrollables (e.g. the day-pair PageView) when running in a browser.
+class _AppScrollBehavior extends MaterialScrollBehavior {
+  const _AppScrollBehavior();
+
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+        ...super.dragDevices,
+        PointerDeviceKind.mouse,
+        PointerDeviceKind.trackpad,
+      };
 }
 
 class MealPlannerApp extends StatefulWidget {
@@ -39,6 +54,7 @@ class _MealPlannerAppState extends State<MealPlannerApp> {
     return MaterialApp(
       title: 'Jedzonko',
       debugShowCheckedModeBanner: false,
+      scrollBehavior: const _AppScrollBehavior(),
       theme: ThemeData(
         scaffoldBackgroundColor: AppColors.background,
         fontFamily: 'Epilogue',
@@ -93,6 +109,20 @@ class _RootScreenState extends State<_RootScreen> {
 
   @override
   Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        if (constraints.maxWidth >= kDesktopBreakpoint) {
+          return DesktopShell(
+            currentIndex: _currentIndex,
+            onTabSelected: (i) => setState(() => _currentIndex = i),
+          );
+        }
+        return _buildMobile();
+      },
+    );
+  }
+
+  Widget _buildMobile() {
     return Scaffold(
       backgroundColor: AppColors.background,
       body: Stack(

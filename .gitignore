@@ -45,3 +45,6 @@ app.*.map.json
 /android/app/release
 build/
 assets/icon.png
+
+# Firebase Hosting deploy cache
+.firebase/

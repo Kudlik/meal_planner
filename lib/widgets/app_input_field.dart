@@ -9,6 +9,7 @@ class AppInputField extends StatefulWidget {
   final bool enabled;
   final TextInputType? keyboardType;
   final ValueChanged<String>? onChanged;
+  final ValueChanged<String>? onSubmitted;
 
   const AppInputField({
     super.key,
@@ -19,6 +20,7 @@ class AppInputField extends StatefulWidget {
     this.enabled = true,
     this.keyboardType,
     this.onChanged,
+    this.onSubmitted,
   });
 
   @override
@@ -68,6 +70,7 @@ class _AppInputFieldState extends State<AppInputField> {
       enabled: widget.enabled,
       keyboardType: widget.keyboardType,
       onChanged: widget.onChanged,
+      onSubmitted: widget.onSubmitted,
       style: _textBase.copyWith(
         color: _isFocused ? AppColors.accent : AppColors.accentSurface,
       ),

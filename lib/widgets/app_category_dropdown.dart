@@ -61,7 +61,9 @@ class _AppCategoryDropdownState extends State<AppCategoryDropdown> {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
+    return MouseRegion(
+      cursor: SystemMouseCursors.click,
+      child: GestureDetector(
       onTap: _toggle,
       child: Container(
         decoration: BoxDecoration(
@@ -72,6 +74,7 @@ class _AppCategoryDropdownState extends State<AppCategoryDropdown> {
           ),
         ),
         child: _isOpen ? _buildOpen() : _buildClosed(),
+      ),
       ),
     );
   }

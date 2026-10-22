@@ -60,8 +60,11 @@ class ShoppingRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: variant != ShoppingRowVariant.list ? onTap : null,
+    final tappable = variant != ShoppingRowVariant.list;
+    return MouseRegion(
+      cursor: tappable ? SystemMouseCursors.click : MouseCursor.defer,
+      child: GestureDetector(
+      onTap: tappable ? onTap : null,
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 10),
         child: Row(
@@ -73,23 +76,27 @@ class ShoppingRow extends StatelessWidget {
           ],
         ),
       ),
+      ),
     );
   }
 
   Widget _buildLeading() {
     switch (variant) {
       case ShoppingRowVariant.list:
-        return GestureDetector(
-          onTap: onToggle,
-          child: SvgPicture.asset(
-            isBought
-                ? 'assets/icons/CheckboxFilled.svg'
-                : 'assets/icons/CehckboxEmpty.svg',
-            width: 24,
-            height: 24,
-            colorFilter: ColorFilter.mode(
-              isBought ? AppColors.textOnCard : AppColors.textPrimary,
-              BlendMode.srcIn,
+        return MouseRegion(
+          cursor: SystemMouseCursors.click,
+          child: GestureDetector(
+            onTap: onToggle,
+            child: SvgPicture.asset(
+              isBought
+                  ? 'assets/icons/CheckboxFilled.svg'
+                  : 'assets/icons/CehckboxEmpty.svg',
+              width: 24,
+              height: 24,
+              colorFilter: ColorFilter.mode(
+                isBought ? AppColors.textOnCard : AppColors.textPrimary,
+                BlendMode.srcIn,
+              ),
             ),
           ),
         );
@@ -134,13 +141,16 @@ class ShoppingRow extends StatelessWidget {
           ],
           if (!isBought && onEdit != null) ...[
             const SizedBox(width: 12),
-            GestureDetector(
-              onTap: onEdit,
-              child: SvgPicture.asset(
-                'assets/icons/Edit.svg',
-                width: 24,
-                height: 24,
-                colorFilter: const ColorFilter.mode(AppColors.textPrimary, BlendMode.srcIn),
+            MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: onEdit,
+                child: SvgPicture.asset(
+                  'assets/icons/Edit.svg',
+                  width: 24,
+                  height: 24,
+                  colorFilter: const ColorFilter.mode(AppColors.textPrimary, BlendMode.srcIn),
+                ),
               ),
             ),
           ],

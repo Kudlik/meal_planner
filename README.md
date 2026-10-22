@@ -65,3 +65,13 @@ flutter run
 ```
 
 Requires Flutter 3.x and Dart SDK ^3.11.5.
+
+### Web
+
+The same codebase runs in the browser. Windows narrower than 900px get the phone layout; wider ones get the desktop layout (`lib/desktop/`) with a header, tabs, the full 4-column menu grid and a side panel instead of bottom sheets. Press Esc or click the dimmed area to close the panel.
+
+1. Add the web app to the Firebase project: `flutterfire configure --platforms=android,web`
+2. Run it: `flutter run -d chrome`
+3. Build it: `flutter build web --release` (output in `build/web`)
+
+Because there is no login, anyone who can load the site can read and write the household document — check the Firestore security rules before hosting it publicly.

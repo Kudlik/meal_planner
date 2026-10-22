@@ -1,12 +1,12 @@
 {
-    "name": "meal_planner",
-    "short_name": "meal_planner",
+    "name": "Jedzonko",
+    "short_name": "Jedzonko",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#1E1B13",
+    "theme_color": "#EFE2BC",
+    "description": "Household meal planner with a shared menu and shopping list.",
+    "orientation": "any",
     "prefer_related_applications": false,
     "icons": [
         {
