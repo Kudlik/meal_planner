@@ -9,19 +9,20 @@ class PlanRepository {
   DocumentReference<Map<String, dynamic>> get _doc =>
       FirebaseFirestore.instance.collection('households').doc(_householdId);
 
-  Future<void> save(List<PlanSlot> slots) {
-    final map = <String, dynamic>{};
-    final statusMap = <String, dynamic>{};
-    for (final slot in slots) {
-      if (slot.mealName != null) {
-        map['${slot.dayKey}|${slot.rawMealType}'] = slot.mealName;
-      }
-      if (slot.status != null) {
-        statusMap['${slot.dayKey}|${slot.rawMealType}'] = slot.status;
-      }
-    }
-    return _doc.set({'plan': map, 'slotStatuses': statusMap}, SetOptions(merge: true));
+  // Writes only the given slot. Merge-set deep-merges nested maps, so a
+  // cleared slot must be removed explicitly with FieldValue.delete().
+  Future<void> saveSlot(PlanSlot slot) {
+    final key = '${slot.dayKey}|${slot.rawMealType}';
+    return _doc.set({
+      'plan': {key: slot.mealName ?? FieldValue.delete()},
+      'slotStatuses': {key: slot.status ?? FieldValue.delete()},
+    }, SetOptions(merge: true));
   }
+
+  Future<void> clear() => _doc.set({
+        'plan': FieldValue.delete(),
+        'slotStatuses': FieldValue.delete(),
+      }, SetOptions(merge: true));
 
   List<PlanSlot> emptySlots() => [
     for (final day in _dayKeys)

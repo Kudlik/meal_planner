@@ -78,7 +78,7 @@ class AppState extends ChangeNotifier {
     final slot = slotFor(dayKey, rawMealType);
     if (slot != null) {
       slot.mealName = mealName;
-      _planRepo.save(_slots);
+      _planRepo.saveSlot(slot);
       notifyListeners();
     }
   }
@@ -88,7 +88,7 @@ class AppState extends ChangeNotifier {
     if (slot != null) {
       slot.mealName = null;
       slot.status = null;
-      _planRepo.save(_slots);
+      _planRepo.saveSlot(slot);
       notifyListeners();
     }
   }
@@ -97,7 +97,7 @@ class AppState extends ChangeNotifier {
     final slot = slotFor(dayKey, rawMealType);
     if (slot != null) {
       slot.status = slot.status == newStatus ? null : newStatus;
-      _planRepo.save(_slots);
+      _planRepo.saveSlot(slot);
       notifyListeners();
     }
   }
@@ -110,8 +110,8 @@ class AppState extends ChangeNotifier {
     _manuals.clear();
     _quantityOverrides.clear();
     _boughtItems.clear();
-    _planRepo.save(_slots);
-    _shoppingRepo.save(_manuals, _quantityOverrides, _boughtItems);
+    _planRepo.clear();
+    _shoppingRepo.clear();
     notifyListeners();
   }
 
@@ -192,12 +192,13 @@ class AppState extends ChangeNotifier {
   bool isBought(String name) => _boughtItems.contains(name);
 
   void toggleBought(String name) {
-    if (_boughtItems.contains(name)) {
-      _boughtItems.remove(name);
-    } else {
+    final bought = !_boughtItems.contains(name);
+    if (bought) {
       _boughtItems.add(name);
+    } else {
+      _boughtItems.remove(name);
     }
-    _shoppingRepo.save(_manuals, _quantityOverrides, _boughtItems);
+    _shoppingRepo.setBought(name, bought);
     notifyListeners();
   }
 
@@ -213,29 +214,30 @@ class AppState extends ChangeNotifier {
 
   void updateItemQuantity(String itemName, double newQty, String unit) {
     final delta = newQty - _computedQuantity(itemName);
+    final old = _quantityOverrides.where((o) => o.itemName == itemName).toList();
     _quantityOverrides.removeWhere((o) => o.itemName == itemName);
-    if (delta != 0) {
-      _quantityOverrides.add(QuantityOverride(
-        itemName: itemName,
-        delta: delta,
-        unit: unit,
-      ));
-    }
-    _shoppingRepo.save(_manuals, _quantityOverrides, _boughtItems);
+    final replacement = delta != 0
+        ? QuantityOverride(itemName: itemName, delta: delta, unit: unit)
+        : null;
+    if (replacement != null) _quantityOverrides.add(replacement);
+    _shoppingRepo.replaceOverride(old, replacement);
     notifyListeners();
   }
 
   void addManualItem(String name, String quantity, String? category) {
-    _manuals.insert(0, ManualItem(name: name, quantity: quantity, category: category));
-    _shoppingRepo.save(_manuals, _quantityOverrides, _boughtItems);
+    final item = ManualItem(name: name, quantity: quantity, category: category);
+    _manuals.insert(0, item);
+    _shoppingRepo.addManual(item);
     notifyListeners();
   }
 
   void updateManualItem(String oldName, String newName, String quantity, String? category) {
     final index = _manuals.indexWhere((m) => m.name == oldName);
     if (index != -1) {
-      _manuals[index] = ManualItem(name: newName, quantity: quantity, category: category);
-      _shoppingRepo.save(_manuals, _quantityOverrides, _boughtItems);
+      final old = _manuals[index];
+      final replacement = ManualItem(name: newName, quantity: quantity, category: category);
+      _manuals[index] = replacement;
+      _shoppingRepo.replaceManual(old, replacement);
       notifyListeners();
     }
   }
